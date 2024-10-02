@@ -320,6 +320,7 @@ class Platform extends React.Component {
         console.debug(
             `Platform.js: available problems ${problems.length}, completed problems ${this.completedProbs.size}`
         );
+
         chosenProblem = context.heuristic(problems, this.completedProbs);
         console.debug("Platform.js: chosen problem", chosenProblem);
 
