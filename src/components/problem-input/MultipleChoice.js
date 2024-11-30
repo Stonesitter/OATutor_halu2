@@ -13,7 +13,7 @@ class MultipleChoice extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: props.choices.length == 10 ? (props.defaultValue || []) : (props.defaultValue || null),
+            value: props.choices.includes("General programmes") ? (props.defaultValue || []) : (props.defaultValue || null),
         };
     }
 
@@ -26,7 +26,7 @@ class MultipleChoice extends React.Component {
     
         const { choices } = this.props;
     
-        if (choices.length == 10) {
+        if (choices.includes("General programmes")) {
             const value = event.target.value;
             this.setState((prevState) => {
                 const selectedValues = new Set(prevState.value || []);
@@ -62,8 +62,7 @@ class MultipleChoice extends React.Component {
         return (
             <div style={{ marginRight: "5%", textAlign: "center" }}>
                 <FormControl>
-                    {this.props.choices.length == 10 ? (
-                        // Multiselect with Checkboxes
+                    {this.props.choices.includes("General programmes") ? (
                         choices.length > 0
                             ? choices.map((choice, i) => (
                                 <FormControlLabel
@@ -80,7 +79,7 @@ class MultipleChoice extends React.Component {
                             ))
                             : "Error: This problem has no answer choices. Please submit feedback."
                     ) : (
-                        <RadioGroup value={value} onChange={this.handleChange}>
+                        <RadioGroup value={value} onChange={this.handleChange} >
                             {choices.length > 0
                                 ? choices.map((choice, i) => (
                                     <FormControlLabel
