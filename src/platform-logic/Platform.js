@@ -280,6 +280,59 @@ class Platform extends React.Component {
         const problems = this.problemIndex.problems.filter(
             ({ courseName }) => !courseName.toString().startsWith("!!")
         );
+
+        if (this.lesson.id === '1YjWQIN7-TMpv-FxHeHbZj2A') {
+            const fixedProblemOrder = [
+                "a42d2c2Confusion",
+                "a42d2c2Usefulness",
+                "a42d2c2Motivation",
+                "a42d2c2Mathematics",
+                "a42d2c2Perceived"
+            ];
+            const completedProblemIds = Array.from(this.completedProbs).map(
+                (problem) => problem
+            );
+        
+            console.debug("Fixed problem order: completedProblemIds", completedProblemIds);
+        
+            // Find the next problem that has not been completed
+            const nextFixedProblem = fixedProblemOrder.find(
+                (problemId) => !completedProblemIds.includes(problemId)
+            );
+        
+            console.debug("Next fixed problem ID:", nextFixedProblem);
+        
+            if (nextFixedProblem) {
+                const chosenProblem = problems.find(
+                    (problem) => problem.id === nextFixedProblem
+                );
+        
+                if (chosenProblem) {
+                    // Update state to prevent re-selection
+                    this.setState(
+                        { currProblem: chosenProblem, status: "learning" },
+                        () => {
+                            console.debug("Fixed problem order: chosen problem", chosenProblem);
+                            this.context.firebase.startedProblem(
+                                chosenProblem.id,
+                                chosenProblem.courseName,
+                                chosenProblem.lesson,
+                                this.lesson.learningObjectives
+                            );
+                        }
+                    );
+                    return chosenProblem;
+                } else {
+                    console.error("Fixed problem order: chosenProblem not found in problems list.");
+                }
+            } else {
+                console.debug("Fixed problem order: all problems completed");
+                this.setState({ status: "graduated" });
+                return null;
+            }
+        }
+        
+        
         let chosenProblem;
 
         console.debug(

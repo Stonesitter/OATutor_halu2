@@ -229,6 +229,7 @@ class ProblemCard extends React.Component {
         });
 
         const isCorrect = !!correctAnswer;
+        this.toggleHints('auto-expand');
 
         this.context.firebase.log(
             parsed,

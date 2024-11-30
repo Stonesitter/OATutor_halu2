@@ -4,7 +4,7 @@
         "Arts and Humanities (e.g., literature, history, philosophy, linguistics, religious studies, art history, theater, visual arts)"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "Please indicate your highest degree.",
+    "stepTitle": "Please indicate the field that you study or work in.",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
@@ -17,7 +17,7 @@
         "Health and Medicine (e.g., nursing, medicine, pharmacy, public health, dentistry)",
         "Business and Management (e.g., business administration, finance, marketing, accounting, management)",
         "Education (e.g., early childhood education, special education, educational psychology, educational leadership)",
-        "Law (e.g., $$pre-law$$, criminal justice, legal studies)",
+        "Law (e.g., pre-law, criminal justice, legal studies)",
         "Communication and Media (e.g., journalism, mass communication, public relations, film studies)",
         "Agriculture and Environmental Studies (e.g., agricultural science, environmental studies, forestry, wildlife management)",
         "Architecture and Design (e.g., architecture, interior design, graphic design, industrial design)",
