@@ -12,7 +12,12 @@ if (IS_DEVELOPMENT) {
 
 // attempt = student answer, actual = [ans1, ans2]
 function _equality(attempt, actual) {
-    const parsedAttempt = attempt.replace(/\s+/g, '').replace(/\\left/g, '').replace(/\\right/g, '');
+    var parsedAttempt = ""
+    try {
+        parsedAttempt = attempt.replace(/\s+/g, '').replace(/\\left/g, '').replace(/\\right/g, '');
+    } catch {
+        parsedAttempt = attempt
+    }
     return actual.filter(stepAns => {
         const parsedStepAns = stepAns.replace(/\s+/g, '').replace(/\\left/g, '').replace(/\\right/g, '');
         //console.log("parsedAttempt: " + parsedAttempt + " parsedStepAns: " + parsedStepAns);
@@ -105,7 +110,12 @@ function checkAnswer({ attempt, actual, answerType, precision = 5, variabilizati
         attempt = convertSwedishToUS(attempt)
     }
     
-    let parsed = attempt.replace(/\s+/g, '');
+    let parsed = ""
+    try {
+        parsed = attempt.replace(/\s+/g, '');
+    } catch {
+        parsed = attempt;
+    }
     if (variabilization) {
         actual = actual.map((actualAns) => variabilize(actualAns, variabilization));
     }

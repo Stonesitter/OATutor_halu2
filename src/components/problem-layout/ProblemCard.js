@@ -264,7 +264,21 @@ class ProblemCard extends React.Component {
     };
 
     editInput = (event) => {
-        this.setInputValState(event.target.value);
+        console.log(event);
+    
+        let value;
+        if (typeof event === 'string' || Array.isArray(event)) {
+            // When event is the value itself
+            value = event;
+        } else if (event && event.target && typeof event.target.value !== 'undefined') {
+            // When event is an event object with target.value
+            value = event.target.value;
+        } else {
+            console.error('Invalid event or event.target.value:', event);
+            return;
+        }
+    
+        this.setInputValState(value);
         this.setState({
             enableHintGeneration: true,
         });
