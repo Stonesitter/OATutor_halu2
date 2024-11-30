@@ -13,7 +13,7 @@ class MultipleChoice extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: props.choices.length == 16 ? (props.defaultValue || []) : (props.defaultValue || null),
+            value: props.choices.length == 10 ? (props.defaultValue || []) : (props.defaultValue || null),
         };
     }
 
@@ -26,7 +26,7 @@ class MultipleChoice extends React.Component {
     
         const { choices } = this.props;
     
-        if (choices.length == 16) {
+        if (choices.length == 10) {
             const value = event.target.value;
             this.setState((prevState) => {
                 const selectedValues = new Set(prevState.value || []);
@@ -62,7 +62,7 @@ class MultipleChoice extends React.Component {
         return (
             <div style={{ marginRight: "5%", textAlign: "center" }}>
                 <FormControl>
-                    {this.props.choices.length == 16 ? (
+                    {this.props.choices.length == 10 ? (
                         // Multiselect with Checkboxes
                         choices.length > 0
                             ? choices.map((choice, i) => (

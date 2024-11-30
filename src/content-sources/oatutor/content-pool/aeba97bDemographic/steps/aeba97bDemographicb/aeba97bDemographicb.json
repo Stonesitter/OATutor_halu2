@@ -11,6 +11,8 @@
     "choices": [
         "Female",
         "Male",
-        "Other"
+        "Non-binary",
+        "Other",
+        "No response"
     ]
 }
