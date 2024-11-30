@@ -77,8 +77,8 @@
         "lessons": [
             {
                 "id": "4cNKBqDH-7YQ2-9512D84Y5D",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: PRE-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iapretest1_control": 0.85
@@ -92,8 +92,8 @@
             },
             {
                 "id": "3JenVVX2-kMPE-fZdcfe78Gk",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "Intermediate Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaaquisition1_control": 0.85
@@ -108,8 +108,8 @@
             },
             {
                 "id": "5XklOSE7-45tb-MktHvECbTq",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: POST-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaposttest1_control": 0.85
@@ -123,8 +123,8 @@
             },
             {
                 "id": "55FXj8CK-6uFb-8XQa4IFpQb",
-                "name": "Lesson College",
-                "topics": "Algebra: PRE-TEST",
+                "name": "College Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "capretest1_control": 0.85
@@ -138,8 +138,8 @@
             },
             {
                 "id": "0ncqxkNv-K2VN-PnuRLioSte",
-                "name": "Lesson College",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "College Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caaquisition1_control": 0.85
@@ -154,8 +154,8 @@
             },
             {
                 "id": "2M67uG5p-H7Zu-zKUa4XaccH",
-                "name": "Lesson College",
-                "topics": "Algebra: POST-TEST",
+                "name": "College Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caposttest1_control": 0.85
@@ -169,7 +169,7 @@
             },
             {
                 "id": "5ZsTV6ix-foGu-ps16ypKaFa",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -184,7 +184,7 @@
             },
             {
                 "id": "7HuRDBpy-JWvE-JhVP3oOaQw",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -200,7 +200,7 @@
             },
             {
                 "id": "7S9LJHXv-ICR8-xpM3m1kyXL",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -222,8 +222,8 @@
         "lessons": [
             {
                 "id": "4LtmWgbM-wisB-mhDXwHxCXe",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: PRE-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iapretest1_accurate": 0.85
@@ -237,8 +237,8 @@
             },
             {
                 "id": "2x6uqy1a-g4Yh-Ss7RgKQ1FU",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "Intermediate Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaaquisition1_accurate": 0.85
@@ -253,8 +253,8 @@
             },
             {
                 "id": "4RbNIsKj-3AqK-bCjThWwWNa",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: POST-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaposttest1_accurate": 0.85
@@ -268,8 +268,8 @@
             },
             {
                 "id": "0G8uHRPB-Omm6-Jrr2Q7wRUI",
-                "name": "Lesson College",
-                "topics": "Algebra: PRE-TEST",
+                "name": "College Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "capretest1_accurate": 0.85
@@ -283,8 +283,8 @@
             },
             {
                 "id": "4gSvR1sK-Sh84-JIcKgcPOTk",
-                "name": "Lesson College",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "College Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caaquisition1_accurate": 0.85
@@ -299,8 +299,8 @@
             },
             {
                 "id": "2uL1NVTI-l8Xk-a1r2Ompm9Y",
-                "name": "Lesson College",
-                "topics": "Algebra: POST-TEST",
+                "name": "College Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caposttest1_accurate": 0.85
@@ -314,7 +314,7 @@
             },
             {
                 "id": "2w2aMjgw-Szai-qrjmZuVufy",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -329,7 +329,7 @@
             },
             {
                 "id": "4qO7CTHm-xc8O-V9G6oS8xQw",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -345,7 +345,7 @@
             },
             {
                 "id": "5XCR7ZGw-b7oZ-EF8oas3ywH",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -367,8 +367,8 @@
         "lessons": [
             {
                 "id": "54cbLSUI-o8pv-wEo6mcXUp0",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: PRE-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iapretest1_inaccurate": 0.85
@@ -382,8 +382,8 @@
             },
             {
                 "id": "5H0dK6Pi-oOTT-D7A5BYALyy",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "Intermediate Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaaquisition1_inaccurate": 0.85
@@ -398,8 +398,8 @@
             },
             {
                 "id": "2BFPgFTG-olmL-fjAFCYo4in",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: POST-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaposttest1_inaccurate": 0.85
@@ -413,8 +413,8 @@
             },
             {
                 "id": "48zfT3LE-AkD2-pt3WHDqoyw",
-                "name": "Lesson College",
-                "topics": "Algebra: PRE-TEST",
+                "name": "College Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "capretest1_inaccurate": 0.85
@@ -428,8 +428,8 @@
             },
             {
                 "id": "4XrZHIvn-RZXj-Faugy6XV4i",
-                "name": "Lesson College",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "College Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caaquisition1_inaccurate": 0.85
@@ -444,8 +444,8 @@
             },
             {
                 "id": "3JSS9P1S-SWWM-9pf7NWQNcz",
-                "name": "Lesson College",
-                "topics": "Algebra: POST-TEST",
+                "name": "College Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caposttest1_inaccurate": 0.85
@@ -459,7 +459,7 @@
             },
             {
                 "id": "7ZuiBpDk-eGRC-a6srrg87i9",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -474,7 +474,7 @@
             },
             {
                 "id": "1439qt1o-uulK-R8qkdApTmI",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -490,7 +490,7 @@
             },
             {
                 "id": "4PjZ1MBN-5zZv-lD8N7b1Gta",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -512,8 +512,8 @@
         "lessons": [
             {
                 "id": "4n94lhnj-bZPF-QX0LClmckB",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: PRE-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iapretest1_mixed": 0.85
@@ -527,8 +527,8 @@
             },
             {
                 "id": "3QNqcyT7-Twxp-EhAzqJ6fQ4",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "Intermediate Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaaquisition1_mixed": 0.85
@@ -543,8 +543,8 @@
             },
             {
                 "id": "3YOucfec-PoIf-1EkCRpnC3o",
-                "name": "Lesson Intermediate",
-                "topics": "Algebra: POST-TEST",
+                "name": "Intermediate Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "iaposttest1_mixed": 0.85
@@ -558,8 +558,8 @@
             },
             {
                 "id": "1MA6mweU-av9K-B3cWEZ6Ndt",
-                "name": "Lesson College",
-                "topics": "Algebra: PRE-TEST",
+                "name": "College Algebra",
+                "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "capretest1_mixed": 0.85
@@ -573,8 +573,8 @@
             },
             {
                 "id": "5p2fXWb5-2EbC-e5rRe73xu8",
-                "name": "Lesson College",
-                "topics": "Algebra: AQUISITION PHASE",
+                "name": "College Algebra",
+                "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caaquisition1_mixed": 0.85
@@ -589,8 +589,8 @@
             },
             {
                 "id": "0v2bMnJX-BnaD-si3tbPVt63",
-                "name": "Lesson College",
-                "topics": "Algebra: POST-TEST",
+                "name": "College Algebra",
+                "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "caposttest1_mixed": 0.85
@@ -604,7 +604,7 @@
             },
             {
                 "id": "09KVOmIn-ureL-bkjm08bONY",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "PRE-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -619,7 +619,7 @@
             },
             {
                 "id": "5UiPAllo-i7n2-RnlZl7R0je",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "AQUISITION PHASE",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -635,7 +635,7 @@
             },
             {
                 "id": "5Ca5ao6X-UeAb-M6WjTadgnj",
-                "name": "Lesson Statistics:",
+                "name": "Statistics",
                 "topics": "POST-TEST",
                 "allowRecycle": false,
                 "learningObjectives": {
