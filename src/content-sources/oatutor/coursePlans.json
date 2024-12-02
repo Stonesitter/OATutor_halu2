@@ -87,7 +87,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             },
             {
@@ -98,13 +98,14 @@
                 "learningObjectives": {
                     "iaaquisition1_control": 0.85
                 },
-                "giveStuFeedback": true,
-                "giveStuHints": true,
+                "giveStuFeedback": false,
+                "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "unlockFirstHint": false,
+                "giveHintOnIncorrect": false,
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "5XklOSE7-45tb-MktHvECbTq",
@@ -118,7 +119,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             },
             {
@@ -133,7 +134,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             },
             {
@@ -144,13 +145,14 @@
                 "learningObjectives": {
                     "caaquisition1_control": 0.85
                 },
-                "giveStuFeedback": true,
-                "giveStuHints": true,
+                "giveStuFeedback": false,
+                "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "unlockFirstHint": false,
+                "giveHintOnIncorrect": false,
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "2M67uG5p-H7Zu-zKUa4XaccH",
@@ -164,7 +166,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             },
             {
@@ -179,7 +181,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             },
             {
@@ -190,13 +192,14 @@
                 "learningObjectives": {
                     "saquisition1_control": 0.85
                 },
-                "giveStuFeedback": true,
-                "giveStuHints": true,
+                "giveStuFeedback": false,
+                "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "unlockFirstHint": false,
+                "giveHintOnIncorrect": false,
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "7S9LJHXv-ICR8-xpM3m1kyXL",
@@ -210,7 +213,7 @@
                 "giveStuHints": false,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
+                "unlockFirstHint": false,
                 "giveHintOnIncorrect": false
             }
         ]
@@ -243,13 +246,14 @@
                 "learningObjectives": {
                     "iaaquisition1_accurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "4RbNIsKj-3AqK-bCjThWwWNa",
@@ -289,13 +293,14 @@
                 "learningObjectives": {
                     "caaquisition1_accurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "2uL1NVTI-l8Xk-a1r2Ompm9Y",
@@ -335,13 +340,14 @@
                 "learningObjectives": {
                     "saquisition1_accurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "5XCR7ZGw-b7oZ-EF8oas3ywH",
@@ -388,13 +394,14 @@
                 "learningObjectives": {
                     "iaaquisition1_inaccurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "2BFPgFTG-olmL-fjAFCYo4in",
@@ -434,13 +441,14 @@
                 "learningObjectives": {
                     "caaquisition1_inaccurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "3JSS9P1S-SWWM-9pf7NWQNcz",
@@ -480,13 +488,14 @@
                 "learningObjectives": {
                     "saquisition1_inaccurate": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "4PjZ1MBN-5zZv-lD8N7b1Gta",
@@ -533,13 +542,14 @@
                 "learningObjectives": {
                     "iaaquisition1_mixed": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "3YOucfec-PoIf-1EkCRpnC3o",
@@ -579,13 +589,14 @@
                 "learningObjectives": {
                     "caaquisition1_mixed": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "0v2bMnJX-BnaD-si3tbPVt63",
@@ -625,13 +636,14 @@
                 "learningObjectives": {
                     "saquisition1_mixed": 0.85
                 },
-                "giveStuFeedback": true,
+                "giveStuFeedback": false,
                 "giveStuHints": true,
                 "doMasteryUpdate": false,
                 "showStuMastery": false,
                 "unlockFirstHint": true,
                 "giveHintOnIncorrect": true,
-                "giveStuBottomHint": true
+                "giveStuBottomHint": false,
+                "allowRetry": true
             },
             {
                 "id": "5Ca5ao6X-UeAb-M6WjTadgnj",

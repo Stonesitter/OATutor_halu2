@@ -25,8 +25,9 @@ export function toastNotifyCorrectness(isCorrect, reason, translate) {
 
 export function toastNotifyCompletion(translate) {
     toast.info(translate("toast.stepComplete"), {
-        autoClose: 3000
-    })
+        autoClose: 3000,
+        icon: <div></div>
+    });
 }
 
 export function toastNotifyEmpty(translate) {

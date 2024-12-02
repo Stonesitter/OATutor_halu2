@@ -50,6 +50,7 @@ class Problem extends React.Component {
         const giveStuFeedback = this.props.lesson?.giveStuFeedback;
         const giveStuHints = this.props.lesson?.giveStuHints;
         const keepMCOrder = this.props.lesson?.keepMCOrder;
+        const allowRetry = this.props.lesson?.allowRetry;
         const giveHintOnIncorrect = this.props.lesson?.giveHintOnIncorrect;
         const keyboardType = this.props.lesson?.keyboardType;
         const doMasteryUpdate = this.props.lesson?.doMasteryUpdate;
@@ -61,6 +62,7 @@ class Problem extends React.Component {
         this.keepMCOrder = keepMCOrder != null && keepMCOrder;
         this.keyboardType = keyboardType != null && keyboardType;
         this.giveStuHints = giveStuHints == null || giveStuHints;
+        this.allowRetry = allowRetry != null || allowRetry;
         this.doMasteryUpdate = doMasteryUpdate == null || doMasteryUpdate;
         this.unlockFirstHint = unlockFirstHint != null && unlockFirstHint;
         this.giveStuBottomHint = giveStuBottomHint == null || giveStuBottomHint;
@@ -478,6 +480,7 @@ class Problem extends React.Component {
                                     problemSubTitle={problem.body}
                                     giveStuFeedback={this.giveStuFeedback}
                                     giveStuHints={this.giveStuHints}
+                                    allowRetry={this.allowRetry}
                                     keepMCOrder={this.keepMCOrder}
                                     keyboardType={this.keyboardType}
                                     giveHintOnIncorrect={

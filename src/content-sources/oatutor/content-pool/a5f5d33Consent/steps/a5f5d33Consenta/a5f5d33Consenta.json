@@ -5,7 +5,7 @@
     ],
     "problemType": "MultipleChoice",
     "stepTitle": "Consent Form",
-    "stepBody": "Please review the consent form available at https://shorturl.at/jYn1f. Do you agree to participate in this study?",
+    "stepBody": "Please review the consent form available at https://shorturl.at/jYn1f. Do you agree to participate in this study? ##figure1.gif## ",
     "answerType": "string",
     "variabilization": {},
     "choices": [

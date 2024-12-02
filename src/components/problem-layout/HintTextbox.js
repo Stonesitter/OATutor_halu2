@@ -25,7 +25,7 @@ class HintTextbox extends React.Component {
         this.hint = props.hint;
         this.index = props.index;
         this.giveStuFeedback = props.giveStuFeedback
-        this.allowRetry = this.giveStuFeedback
+        this.allowRetry = props.allowRetry
         this.showCorrectness = this.giveStuFeedback
         this.state = {
             inputVal: "",

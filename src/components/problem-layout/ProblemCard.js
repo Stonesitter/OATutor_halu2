@@ -40,7 +40,7 @@ class ProblemCard extends React.Component {
 
     constructor(props, context) {
         super(props);
-        // console.log("problem lesson props:", props);
+        console.log("problem lesson props:", props);
 
         this.translate = props.translate
         this.step = props.step;
@@ -51,7 +51,7 @@ class ProblemCard extends React.Component {
         this.giveHintOnIncorrect = props.giveHintOnIncorrect
         this.keepMCOrder = props.keepMCOrder;
         this.keyboardType = props.keyboardType;
-        this.allowRetry = this.giveStuFeedback;
+        this.allowRetry = props.allowRetry;
 
         this.giveStuBottomHint = props.giveStuBottomHint;
         this.giveDynamicHint = props.giveDynamicHint;
@@ -95,14 +95,6 @@ class ProblemCard extends React.Component {
             this.giveStuBottomHint &&
             !(context.debug && context["use_expanded_view"])
         ) {
-            // Bottom out hints
-            this.hints.push({
-                id: this.step.id + "-h" + (this.hints.length + 1),
-                title: this.translate('hintsystem.answer'),
-                text: this.translate('hintsystem.answerIs') + this.step.stepAnswer,
-                type: "bottomOut",
-                dependencies: Array.from(Array(this.hints.length).keys()),
-            });
             // Bottom out sub hints
             this.hints.map((hint, i) => {
                 if (hint.type === "scaffold") {
