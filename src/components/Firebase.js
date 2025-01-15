@@ -24,7 +24,7 @@ import {
 } from "../util/getBuildType";
 
 const problemSubmissionsOutput = "problemSubmissions";
-const problemStartLogOutput = "problemStartLogs";
+const problemStartLogOutput = "problemSubmissions";
 const GPTExperimentOutput = "GPTExperimentOutput";
 const feedbackOutput = "feedbacks";
 const siteLogOutput = "siteLogs";
@@ -336,6 +336,7 @@ class Firebase {
         );
         const data = {
             problemID,
+            eventType: "problemStart",
             Content: courseName,
             lesson,
             lessonObjectives,
