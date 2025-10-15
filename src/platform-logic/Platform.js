@@ -20,13 +20,33 @@ import ToastID from "../util/toastIds";
 import BrandLogoNav from "@components/BrandLogoNav";
 import { cleanArray } from "../util/cleanObject";
 import ErrorBoundary from "@components/ErrorBoundary";
+import { sendCompletionToParent } from "../util/parentMessaging";
 import { CONTENT_SOURCE } from "@common/global-config";
 import withTranslation from '../util/withTranslation';
+
+
 
 let problemPool = require(`@generated/processed-content-pool/${CONTENT_SOURCE}.json`);
 
 let seed = Date.now().toString();
 console.log("Generated seed");
+
+// Fires a parent postMessage exactly once when mounted.
+class CompletionBeacon extends React.Component {
+    componentDidMount() {
+        try {
+            // You can pass extra metadata if helpful:
+            sendCompletionToParent({
+                status: this.props.status,       // "exhausted" | "graduated"
+                lessonId: this.props.lessonId || null,
+            });
+        } catch (e) {
+            // eslint-disable-next-line no-console
+            console.warn("CompletionBeacon failed:", e);
+        }
+    }
+    render() { return null; }
+}
 
 class Platform extends React.Component {
     static contextType = ThemeContext;
@@ -110,6 +130,18 @@ class Platform extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         this.onComponentUpdate(prevProps, prevState, snapshot);
+
+	// When the learning session ends, notify the parent (LS/Qualtrics)
+	if (prevState?.status !== this.state.status) {
+	    const s = this.state.status;
+	    if (s === "exhausted" || s === "graduated") {
+		// fire-and-forget; safe even if <CompletionBeacon/> also runs
+		sendCompletionToParent({
+		    status: s,
+		    lessonId: this.props.lessonID || null,
+		});
+	    }
+	}
     }
 
     
@@ -570,6 +602,11 @@ class Platform extends React.Component {
                             Thank you for learning with {SITE_NAME}. You have
                             finished all problems.
                         </h2>
+                        {/* Signal parent (e.g., LimeSurvey/Qualtrics) that we're done */}
+                        <CompletionBeacon
+                            status="exhausted"
+                            lessonId={this.props.lessonID}
+                        />
                     </center>
                 ) : (
                     ""
@@ -580,6 +617,11 @@ class Platform extends React.Component {
                             Thank you for learning with {SITE_NAME}. You have
                             mastered all the skills for this session!
                         </h2>
+                        {/* Signal parent (e.g., LimeSurvey/Qualtrics) that we're done */}
+                        <CompletionBeacon
+                            status="graduated"
+                            lessonId={this.props.lessonID}
+                        />
                     </center>
                 ) : (
                     ""
