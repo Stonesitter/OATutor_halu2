@@ -4,7 +4,6 @@ import styles from './common-styles.js';
 import { checkAnswer } from '../../platform-logic/checkAnswer.js';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import IconButton from '@material-ui/core/IconButton';
 import { chooseVariables } from '../../platform-logic/renderText.js';
 import { ThemeContext } from '../../config/config.js';
 import ProblemInput from "../problem-input/ProblemInput";
@@ -106,27 +105,8 @@ class HintTextbox extends React.Component {
                 />
 
                 <Grid container spacing={0} justifyContent="center" alignItems="center">
-                    <Grid item xs={false} sm={false} md={4}/>
-                    <Grid item xs={4} sm={4} md={1}>
-                        {this.props.type !== "subHintTextbox" && this.hint.subHints !== undefined ?
-                            <center>
-                                <IconButton aria-label="delete" onClick={this.props.toggleHints}
-                                            title="View available hints"
-                                            disabled={(use_expanded_view && debug)}
-                                            {...stagingProp({
-                                                "data-selenium-target": `hint-button-${hintIndex}`
-                                            })}
-                                >
-                                    <img src={`${process.env.PUBLIC_URL}/static/images/icons/raise_hand.png`}
-                                         alt="hintToggle"/>
-                                </IconButton>
-                            </center> :
-                            <img src={'/static/images/icons/raise_hand.png'}
-                                 alt="hintToggle"
-                                 style={{ visibility: "hidden" }}/>
-                        }
-                    </Grid>
-                    <Grid item xs={4} sm={4} md={2}>
+		    <Grid item xs={false} sm={false} md={4}/>
+                    <Grid item xs={4} sm={4} md={3}>
                         <center>
                             <Button className={classes.button} style={{ width: "80%" }} size="small"
                                     onClick={this.submit}
