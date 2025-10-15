@@ -23,217 +23,91 @@
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iapretest1_control": {
+    "control_physics_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iaaquisition1_control": {
+    "control_physics_kc_1_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iaposttest1_control": {
+    "control_physics_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "capretest1_control": {
+    "accurate_physics_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "caaquisition1_control": {
+    "accurate_physics_kc_1_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "caposttest1_control": {
+    "accurate_physics_kc_1_test": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "spretest1_control": {
+    "inaccurate1_physics_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "saquisition1_control": {
+    "inaccurate1_physics_kc_1_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "sposttest1_control": {
+    "inaccurate1_physics_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iapretest1_accurate": {
+    "inaccurate2_physics_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iaaquisition1_accurate": {
+    "inaccurate2_physics_kc_1_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "iaposttest1_accurate": {
+    "inaccurate2_physics_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "capretest1_accurate": {
+    "inaccurate3_physics_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "caaquisition1_accurate": {
+    "inaccurate3_physics_kc_1_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "caposttest1_accurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "spretest1_accurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "saquisition1_accurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "sposttest1_accurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iapretest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iaaquisition1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iaposttest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "capretest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "caaquisition1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "caposttest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "spretest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "saquisition1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "sposttest1_inaccurate": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iapretest1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iaaquisition1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "iaposttest1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "capretest1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "caaquisition1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "caposttest1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "spretest1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "saquisition1_mixed": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "sposttest1_mixed": {
+    "inaccurate3_physics_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,

@@ -1,8 +1,8 @@
 [
     {
-        "courseName": "General",
-        "courseOER": "https://openstax.org/ <OpenStax>",
-        "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "courseName": "Marlene_OATutor_Projekt_General",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
         "lessons": [
             {
                 "id": "4eqxr86N-hgpa-bXSf0iJ6Z5",
@@ -12,13 +12,10 @@
                 "learningObjectives": {
                     "prolific_id": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "keepMCOrder": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
                 "id": "2RrtAy6e-nfNp-EV4VjZmGQ2",
@@ -28,13 +25,10 @@
                 "learningObjectives": {
                     "consent": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "keepMCOrder": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
                 "id": "1YjWQIN7-TMpv-FxHeHbZj2A",
@@ -44,13 +38,10 @@
                 "learningObjectives": {
                     "questionaire": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "keepMCOrder": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
                 "id": "3ZwuSRd3-ZDzZ-zw3jBthAWg",
@@ -60,605 +51,249 @@
                 "learningObjectives": {
                     "demographic": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "keepMCOrder": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             }
         ]
     },
     {
-        "courseName": "Control",
-        "courseOER": "https://openstax.org/ <OpenStax>",
-        "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "courseName": "Marlene_OATutor_Projekt_control",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "4cNKBqDH-7YQ2-9512D84Y5D",
-                "name": "Intermediate Algebra",
-                "topics": "PRE-TEST",
+                "id": "67BaEYcm-xLQY-7AO9IQQRwX",
+                "name": "Lesson Pretest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iapretest1_control": 0.85
+                    "control_physics_kc_1_pre": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "3JenVVX2-kMPE-fZdcfe78Gk",
-                "name": "Intermediate Algebra",
-                "topics": "AQUISITION PHASE",
+                "id": "2cAHwkAq-gwyy-QOJSFWUa2D",
+                "name": "Lesson AQ_Feedback",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaaquisition1_control": 0.85
+                    "control_physics_kc_1_aq": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false,
-                "giveStuBottomHint": false,
-                "allowRetry": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "5XklOSE7-45tb-MktHvECbTq",
-                "name": "Intermediate Algebra",
-                "topics": "POST-TEST",
+                "id": "0tAElmXJ-KNKL-fZpdxe7TI4",
+                "name": "Lesson Posttest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaposttest1_control": 0.85
+                    "control_physics_kc_1_post": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "55FXj8CK-6uFb-8XQa4IFpQb",
-                "name": "College Algebra",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "capretest1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
                 "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "0ncqxkNv-K2VN-PnuRLioSte",
-                "name": "College Algebra",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caaquisition1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "2M67uG5p-H7Zu-zKUa4XaccH",
-                "name": "College Algebra",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caposttest1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "5ZsTV6ix-foGu-ps16ypKaFa",
-                "name": "Statistics",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "spretest1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "7HuRDBpy-JWvE-JhVP3oOaQw",
-                "name": "Statistics",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "saquisition1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "7S9LJHXv-ICR8-xpM3m1kyXL",
-                "name": "Statistics",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "sposttest1_control": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": false,
-                "giveHintOnIncorrect": false
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             }
         ]
     },
     {
-        "courseName": "Accurate",
-        "courseOER": "https://openstax.org/ <OpenStax>",
-        "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "courseName": "Marlene_OATutor_Projekt_accurate",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "4LtmWgbM-wisB-mhDXwHxCXe",
-                "name": "Intermediate Algebra",
-                "topics": "PRE-TEST",
+                "id": "42H2qCGV-6hKC-9dDyAYivcw",
+                "name": "Lesson Pretest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iapretest1_accurate": 0.85
+                    "accurate_physics_kc_1_pre": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "2x6uqy1a-g4Yh-Ss7RgKQ1FU",
-                "name": "Intermediate Algebra",
-                "topics": "AQUISITION PHASE",
+                "id": "0iU2Aexs-MwrC-cqKvw6P8Ah",
+                "name": "Lesson AQ_Feedback",
+                "topics": "accurate",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaaquisition1_accurate": 0.85
+                    "accurate_physics_kc_1_aq": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "4RbNIsKj-3AqK-bCjThWwWNa",
-                "name": "Intermediate Algebra",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
+                "id": "0zDG8em7-VvYT-qRyNk52cSs",
+                "name": "Lesson This_is_a_test_sheet",
+                "topics": "",
+                "allowRecycle": true,
                 "learningObjectives": {
-                    "iaposttest1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                    "accurate_physics_kc_1_test": 0.85
+                }
             },
             {
-                "id": "0G8uHRPB-Omm6-Jrr2Q7wRUI",
-                "name": "College Algebra",
-                "topics": "PRE-TEST",
+                "id": "6aBjQwul-ehAY-otRj7hHorS",
+                "name": "Lesson Posttest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "capretest1_accurate": 0.85
+                    "accurate_physics_kc_1_test": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "4gSvR1sK-Sh84-JIcKgcPOTk",
-                "name": "College Algebra",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caaquisition1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
                 "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "2uL1NVTI-l8Xk-a1r2Ompm9Y",
-                "name": "College Algebra",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caposttest1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "2w2aMjgw-Szai-qrjmZuVufy",
-                "name": "Statistics",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "spretest1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "4qO7CTHm-xc8O-V9G6oS8xQw",
-                "name": "Statistics",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "saquisition1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "5XCR7ZGw-b7oZ-EF8oas3ywH",
-                "name": "Statistics",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "sposttest1_accurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             }
         ]
     },
     {
-        "courseName": "Inaccurate",
-        "courseOER": "https://openstax.org/ <OpenStax>",
-        "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "courseName": "Marlene_OATutor_Projekt_inaccurate1\n",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "54cbLSUI-o8pv-wEo6mcXUp0",
-                "name": "Intermediate Algebra",
-                "topics": "PRE-TEST",
+                "id": "0r6sypzk-GGRx-mr8ERBWlGJ",
+                "name": "Lesson Pretest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iapretest1_inaccurate": 0.85
+                    "inaccurate1_physics_kc_1_pre": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "5H0dK6Pi-oOTT-D7A5BYALyy",
-                "name": "Intermediate Algebra",
-                "topics": "AQUISITION PHASE",
+                "id": "01MH4qUD-Kzdr-vUlsxysl5x",
+                "name": "Lesson AQ_Feedback",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaaquisition1_inaccurate": 0.85
+                    "inaccurate1_physics_kc_1_aq": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "2BFPgFTG-olmL-fjAFCYo4in",
-                "name": "Intermediate Algebra",
-                "topics": "POST-TEST",
+                "id": "6Dyxb5pb-YQiq-Xtz3a3ycOK",
+                "name": "Lesson Posttest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaposttest1_inaccurate": 0.85
+                    "inaccurate1_physics_kc_1_post": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "48zfT3LE-AkD2-pt3WHDqoyw",
-                "name": "College Algebra",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "capretest1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
                 "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "4XrZHIvn-RZXj-Faugy6XV4i",
-                "name": "College Algebra",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caaquisition1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "3JSS9P1S-SWWM-9pf7NWQNcz",
-                "name": "College Algebra",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caposttest1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "7ZuiBpDk-eGRC-a6srrg87i9",
-                "name": "Statistics",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "spretest1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "1439qt1o-uulK-R8qkdApTmI",
-                "name": "Statistics",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "saquisition1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "4PjZ1MBN-5zZv-lD8N7b1Gta",
-                "name": "Statistics",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "sposttest1_inaccurate": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             }
         ]
     },
     {
-        "courseName": "Mixed",
-        "courseOER": "https://openstax.org/ <OpenStax>",
-        "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "courseName": "Marlene_OATutor_Projekt_inaccurate2\n\n",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "4n94lhnj-bZPF-QX0LClmckB",
-                "name": "Intermediate Algebra",
-                "topics": "PRE-TEST",
+                "id": "77Nc4mSn-10go-9dXjEArjo8",
+                "name": "Lesson Pretest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iapretest1_mixed": 0.85
+                    "inaccurate2_physics_kc_1_pre": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "3QNqcyT7-Twxp-EhAzqJ6fQ4",
-                "name": "Intermediate Algebra",
-                "topics": "AQUISITION PHASE",
+                "id": "6KWOxdSV-3YXo-Zje84oszdk",
+                "name": "Lesson AQ_Feedback",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaaquisition1_mixed": 0.85
+                    "inaccurate2_physics_kc_1_aq": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "3YOucfec-PoIf-1EkCRpnC3o",
-                "name": "Intermediate Algebra",
-                "topics": "POST-TEST",
+                "id": "7gd59ofK-IAWr-avyzchcM2L",
+                "name": "Lesson Posttest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "iaposttest1_mixed": 0.85
+                    "inaccurate2_physics_kc_1_post": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
+            }
+        ]
+    },
+    {
+        "courseName": "Marlene_OATutor_Projekt_inaccurate3\n\n",
+        "courseOER": 0.0,
+        "courseLicense": 0.0,
+        "lessons": [
+            {
+                "id": "3wAoBU4C-t4bJ-UUm615Komr",
+                "name": "Lesson Pretest",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate3_physics_kc_1_pre": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "1MA6mweU-av9K-B3cWEZ6Ndt",
-                "name": "College Algebra",
-                "topics": "PRE-TEST",
+                "id": "5lpn5tRN-odCe-u7aBIekmBe",
+                "name": "Lesson AQ_Feedback",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "capretest1_mixed": 0.85
+                    "inaccurate3_physics_kc_1_aq": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "5p2fXWb5-2EbC-e5rRe73xu8",
-                "name": "College Algebra",
-                "topics": "AQUISITION PHASE",
+                "id": "0EigBWpg-B6XL-IjcOtnVgdJ",
+                "name": "Lesson Posttest",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "caaquisition1_mixed": 0.85
+                    "inaccurate3_physics_kc_1_post": 0.85
                 },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
                 "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "0v2bMnJX-BnaD-si3tbPVt63",
-                "name": "College Algebra",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "caposttest1_mixed": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
                 "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "09KVOmIn-ureL-bkjm08bONY",
-                "name": "Statistics",
-                "topics": "PRE-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "spretest1_mixed": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
-            },
-            {
-                "id": "5UiPAllo-i7n2-RnlZl7R0je",
-                "name": "Statistics",
-                "topics": "AQUISITION PHASE",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "saquisition1_mixed": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": true,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": true,
-                "giveStuBottomHint": false,
-                "allowRetry": true
-            },
-            {
-                "id": "5Ca5ao6X-UeAb-M6WjTadgnj",
-                "name": "Statistics",
-                "topics": "POST-TEST",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "sposttest1_mixed": 0.85
-                },
-                "giveStuFeedback": false,
-                "giveStuHints": false,
-                "doMasteryUpdate": false,
-                "showStuMastery": false,
-                "unlockFirstHint": true,
-                "giveHintOnIncorrect": false
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             }
         ]
     }

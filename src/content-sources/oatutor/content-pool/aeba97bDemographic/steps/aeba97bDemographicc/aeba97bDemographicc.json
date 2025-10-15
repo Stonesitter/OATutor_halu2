@@ -1,7 +1,7 @@
 {
     "id": "aeba97bDemographicc",
     "stepAnswer": [
-        "Early childhood education"
+        "No Degree"
     ],
     "problemType": "MultipleChoice",
     "stepTitle": "Please indicate your highest degree.",
@@ -9,15 +9,13 @@
     "answerType": "string",
     "variabilization": {},
     "choices": [
-        "Early childhood education",
-        "Primary education",
-        "Lower secondary education",
-        "Upper secondary education",
-        "Post-secondary non-tertiary education",
-        "Short-cycle tertiary education",
-        "Bachelor’s or equivalent level",
-        "Master’s or equivalent level",
-        "Doctoral or equivalent level",
-        "Not elsewhere classified"
-      ]
+        "No Degree",
+        "High School Diploma or GED",
+        "Some College (No Degree)",
+        "Associate Degree (AA, AS)",
+        "Bachelor\u2019s Degree (BA, BS)",
+        "Master\u2019s Degree (MA, MS, MEd, MBA)",
+        "Doctoral Degree (PhD, EdD, MD, JD, DDS, etc.)",
+        "Other"
+    ]
 }

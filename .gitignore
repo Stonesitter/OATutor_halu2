@@ -36,3 +36,6 @@ oatutor-firebase-adminsdk.json
 pnpm-lock.yaml
 
 /generated
+.github/workflows/
+# Local env
+.env*

@@ -65,292 +65,67 @@
     "aeba97bDemographicd": [
         "demographic"
     ],
-    "a8e8074IAPretest1_Controla": [
-        "iapretest1_control"
+    "a073edbcontrol_physics_prepost_01a": [
+        "control_physics_kc_1_pre"
     ],
-    "a8e8074IAPretest2_Controla": [
-        "iapretest1_control"
+    "a58a179control_physics_aq_01a": [
+        "control_physics_kc_1_aq"
     ],
-    "a2dc05dIAAquisition1_Controla": [
-        "iaaquisition1_control"
+    "a58a179control_physics_aq_02a": [
+        "control_physics_kc_1_aq"
     ],
-    "a2dc05dIAAquisition2_Controla": [
-        "iaaquisition1_control"
+    "a06aa31control_physics_prepost_02a": [
+        "control_physics_kc_1_post"
     ],
-    "a2dc05dIAAquisition3_Controla": [
-        "iaaquisition1_control"
+    "a073edbaccurate_physics_prepost_01a": [
+        "accurate_physics_kc_1_pre"
     ],
-    "a2dc05dIAAquisition4_Controla": [
-        "iaaquisition1_control"
+    "a8777e0accurate_physics_aq_01a": [
+        "accurate_physics_kc_1_aq"
     ],
-    "a4d2bbfIAPosttest1_Controla": [
-        "iaposttest1_control"
+    "a8777e0accurate_physics_aq_02a": [
+        "accurate_physics_kc_1_aq"
     ],
-    "a4d2bbfIAPosttest2_Controla": [
-        "iaposttest1_control"
+    "a8a528faccurate_physics_test_01a": [
+        "accurate_physics_kc_1_test"
     ],
-    "a85f36cCAPretest1_Controla": [
-        "capretest1_control"
+    "a06aa31accurate_physics_prepost_02a": [
+        "accurate_physics_kc_1_test"
     ],
-    "a85f36cCAPretest2_Controla": [
-        "capretest1_control"
+    "a073edbinaccurate1_physics_prepost_01a": [
+        "inaccurate1_physics_kc_1_pre"
     ],
-    "a88d91dCAAquisition1_Controla": [
-        "caaquisition1_control"
+    "a58a179inaccurate1_physics_aq_01a": [
+        "inaccurate1_physics_kc_1_aq"
     ],
-    "a88d91dCAAquisition2_Controla": [
-        "caaquisition1_control"
+    "a58a179inaccurate1_physics_aq_02a": [
+        "inaccurate1_physics_kc_1_aq"
     ],
-    "a88d91dCAAquisition3_Controla": [
-        "caaquisition1_control"
+    "a06aa31inaccurate1_physics_prepost_02a": [
+        "inaccurate1_physics_kc_1_post"
     ],
-    "a88d91dCAAquisition4_Controla": [
-        "caaquisition1_control"
+    "a073edbinaccurate2_physics_prepost_01a": [
+        "inaccurate2_physics_kc_1_pre"
     ],
-    "aa6b9b8CAPosttest1_Controla": [
-        "caposttest1_control"
+    "a58a179inaccurate2_physics_aq_01a": [
+        "inaccurate2_physics_kc_1_aq"
     ],
-    "aa6b9b8CAPosttest2_Controla": [
-        "caposttest1_control"
+    "a58a179inaccurate2_physics_aq_02a": [
+        "inaccurate2_physics_kc_1_aq"
     ],
-    "aa808a3SPretest1_Controla": [
-        "spretest1_control"
+    "a06aa31inaccurate2_physics_prepost_02a": [
+        "inaccurate2_physics_kc_1_post"
     ],
-    "aa808a3SPretest2_Controla": [
-        "spretest1_control"
+    "a073edbinaccurate3_physics_prepost_01a": [
+        "inaccurate3_physics_kc_1_pre"
     ],
-    "aa8c40dSAquisition1_Controla": [
-        "saquisition1_control"
+    "a58a179inaccurate3_physics_aq_01a": [
+        "inaccurate3_physics_kc_1_aq"
     ],
-    "aa8c40dSAquisition2_Controla": [
-        "saquisition1_control"
+    "a58a179inaccurate3_physics_aq_02a": [
+        "inaccurate3_physics_kc_1_aq"
     ],
-    "aa8c40dSAquisition3_Controla": [
-        "saquisition1_control"
-    ],
-    "aa8c40dSAquisition4_Controla": [
-        "saquisition1_control"
-    ],
-    "ab98a66SPosttest1_Controla": [
-        "sposttest1_control"
-    ],
-    "ab98a66SPosttest2_Controla": [
-        "sposttest1_control"
-    ],
-    "a8e8074IAPretest1_Accuratea": [
-        "iapretest1_accurate"
-    ],
-    "a8e8074IAPretest2_Accuratea": [
-        "iapretest1_accurate"
-    ],
-    "a2dc05dIAAquisition1_Accuratea": [
-        "iaaquisition1_accurate"
-    ],
-    "a2dc05dIAAquisition2_Accuratea": [
-        "iaaquisition1_accurate"
-    ],
-    "a2dc05dIAAquisition3_Accuratea": [
-        "iaaquisition1_accurate"
-    ],
-    "a2dc05dIAAquisition4_Accuratea": [
-        "iaaquisition1_accurate"
-    ],
-    "a4d2bbfIAPosttest1_Accuratea": [
-        "iaposttest1_accurate"
-    ],
-    "a4d2bbfIAPosttest2_Accuratea": [
-        "iaposttest1_accurate"
-    ],
-    "a85f36cCAPretest1_Accuratea": [
-        "capretest1_accurate"
-    ],
-    "a85f36cCAPretest2_Accuratea": [
-        "capretest1_accurate"
-    ],
-    "a88d91dCAAquisition1_Accuratea": [
-        "caaquisition1_accurate"
-    ],
-    "a88d91dCAAquisition2_Accuratea": [
-        "caaquisition1_accurate"
-    ],
-    "a88d91dCAAquisition3_Accuratea": [
-        "caaquisition1_accurate"
-    ],
-    "a88d91dCAAquisition4_Accuratea": [
-        "caaquisition1_accurate"
-    ],
-    "aa6b9b8CAPosttest1_Accuratea": [
-        "caposttest1_accurate"
-    ],
-    "aa6b9b8CAPosttest2_Accuratea": [
-        "caposttest1_accurate"
-    ],
-    "aa808a3SPretest1_Accuratea": [
-        "spretest1_accurate"
-    ],
-    "aa808a3SPretest2_Accuratea": [
-        "spretest1_accurate"
-    ],
-    "aa8c40dSAquisition1_Accuratea": [
-        "saquisition1_accurate"
-    ],
-    "aa8c40dSAquisition2_Accuratea": [
-        "saquisition1_accurate"
-    ],
-    "aa8c40dSAquisition3_Accuratea": [
-        "saquisition1_accurate"
-    ],
-    "aa8c40dSAquisition4_Accuratea": [
-        "saquisition1_accurate"
-    ],
-    "ab98a66SPosttest1_Accuratea": [
-        "sposttest1_accurate"
-    ],
-    "ab98a66SPosttest2_Accuratea": [
-        "sposttest1_accurate"
-    ],
-    "a8e8074IAPretest1_Inaccuratea": [
-        "iapretest1_inaccurate"
-    ],
-    "a8e8074IAPretest2_Inaccuratea": [
-        "iapretest1_inaccurate"
-    ],
-    "a2dc05dIAAquisition1_Inaccuratea": [
-        "iaaquisition1_inaccurate"
-    ],
-    "a2dc05dIAAquisition2_Inaccuratea": [
-        "iaaquisition1_inaccurate"
-    ],
-    "a2dc05dIAAquisition3_Inaccuratea": [
-        "iaaquisition1_inaccurate"
-    ],
-    "a2dc05dIAAquisition4_Inaccuratea": [
-        "iaaquisition1_inaccurate"
-    ],
-    "a4d2bbfIAPosttest1_Inaccuratea": [
-        "iaposttest1_inaccurate"
-    ],
-    "a4d2bbfIAPosttest2_Inaccuratea": [
-        "iaposttest1_inaccurate"
-    ],
-    "a85f36cCAPretest1_Inaccuratea": [
-        "capretest1_inaccurate"
-    ],
-    "a85f36cCAPretest2_Inaccuratea": [
-        "capretest1_inaccurate"
-    ],
-    "a88d91dCAAquisition1_Inaccuratea": [
-        "caaquisition1_inaccurate"
-    ],
-    "a88d91dCAAquisition2_Inaccuratea": [
-        "caaquisition1_inaccurate"
-    ],
-    "a88d91dCAAquisition3_Inaccuratea": [
-        "caaquisition1_inaccurate"
-    ],
-    "a88d91dCAAquisition4_Inaccuratea": [
-        "caaquisition1_inaccurate"
-    ],
-    "aa6b9b8CAPosttest1_Inaccuratea": [
-        "caposttest1_inaccurate"
-    ],
-    "aa6b9b8CAPosttest2_Inaccuratea": [
-        "caposttest1_inaccurate"
-    ],
-    "aa808a3SPretest1_Inaccuratea": [
-        "spretest1_inaccurate"
-    ],
-    "aa808a3SPretest2_Inaccuratea": [
-        "spretest1_inaccurate"
-    ],
-    "aa8c40dSAquisition1_Inaccuratea": [
-        "saquisition1_inaccurate"
-    ],
-    "aa8c40dSAquisition2_Inaccuratea": [
-        "saquisition1_inaccurate"
-    ],
-    "aa8c40dSAquisition3_Inaccuratea": [
-        "saquisition1_inaccurate"
-    ],
-    "aa8c40dSAquisition4_Inaccuratea": [
-        "saquisition1_inaccurate"
-    ],
-    "ab98a66SPosttest1_Inaccuratea": [
-        "sposttest1_inaccurate"
-    ],
-    "ab98a66SPosttest2_Inaccuratea": [
-        "sposttest1_inaccurate"
-    ],
-    "a8e8074IAPretest1_Mixeda": [
-        "iapretest1_mixed"
-    ],
-    "a8e8074IAPretest2_Mixeda": [
-        "iapretest1_mixed"
-    ],
-    "a2dc05dIAAquisition1_Mixeda": [
-        "iaaquisition1_mixed"
-    ],
-    "a2dc05dIAAquisition2_Mixeda": [
-        "iaaquisition1_mixed"
-    ],
-    "a2dc05dIAAquisition3_Mixeda": [
-        "iaaquisition1_mixed"
-    ],
-    "a2dc05dIAAquisition4_Mixeda": [
-        "iaaquisition1_mixed"
-    ],
-    "a4d2bbfIAPosttest1_Mixeda": [
-        "iaposttest1_mixed"
-    ],
-    "a4d2bbfIAPosttest2_Mixeda": [
-        "iaposttest1_mixed"
-    ],
-    "a85f36cCAPretest1_Mixeda": [
-        "capretest1_mixed"
-    ],
-    "a85f36cCAPretest2_Mixeda": [
-        "capretest1_mixed"
-    ],
-    "a88d91dCAAquisition1_Mixeda": [
-        "caaquisition1_mixed"
-    ],
-    "a88d91dCAAquisition2_Mixeda": [
-        "caaquisition1_mixed"
-    ],
-    "a88d91dCAAquisition3_Mixeda": [
-        "caaquisition1_mixed"
-    ],
-    "a88d91dCAAquisition4_Mixeda": [
-        "caaquisition1_mixed"
-    ],
-    "aa6b9b8CAPosttest1_Mixeda": [
-        "caposttest1_mixed"
-    ],
-    "aa6b9b8CAPosttest2_Mixeda": [
-        "caposttest1_mixed"
-    ],
-    "aa808a3SPretest1_Mixeda": [
-        "spretest1_mixed"
-    ],
-    "aa808a3SPretest2_Mixeda": [
-        "spretest1_mixed"
-    ],
-    "aa8c40dSAquisition1_Mixeda": [
-        "saquisition1_mixed"
-    ],
-    "aa8c40dSAquisition2_Mixeda": [
-        "saquisition1_mixed"
-    ],
-    "aa8c40dSAquisition3_Mixeda": [
-        "saquisition1_mixed"
-    ],
-    "aa8c40dSAquisition4_Mixeda": [
-        "saquisition1_mixed"
-    ],
-    "ab98a66SPosttest1_Mixeda": [
-        "sposttest1_mixed"
-    ],
-    "ab98a66SPosttest2_Mixeda": [
-        "sposttest1_mixed"
+    "a06aa31inaccurate3_physics_prepost_02a": [
+        "inaccurate3_physics_kc_1_post"
     ]
 }
