@@ -1,3 +1,28 @@
+### My Stuff ###
+# OATutor-halu2
+
+This repository is a customized version of [OATutor](https://github.com/CAHLR/OATutor) designed for a psychology-based adaptive tutoring study conducted at [Your Institution].  
+It includes modifications to integrate OATutor lessons into **LimeSurvey**, disable certain UI features, and customize feedback behavior.
+
+See [`docs/complete-lesson-signal.md`](docs/complete-lesson-signal.md) for setup instructions.
+
+Hey this following version of OATutor was made to be more usable for a specific study (DOI work in progress).
+The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – which was copied.
+
+####  Features that I try to implement ####
+#### done #####
+- deactivate Homebutton
+- deactivate Correct/Incorrect Feedback (already from old study)
+- deactivate show Hint-Button
+- make Next Button invisible until Lessons are completed (possible in Limesurvey with Customtheme)
+
+#### todo ####
+- deactivate exclamation mark
+- rename Hint to Feedback
+- make Solutionbox editable after first submit
+
+### original readme ###
+
 # OATutor
 
 OATutor is an Open-source Adaptive Tutoring System (OAT) based on Intelligent Tutoring System principles. It uses Bayesian Knowledge Tracing for skill mastery estimation and is implemented entirely in React JS with optional logging using [Firebase](https://firebase.google.com/). 
@@ -579,3 +604,6 @@ mastery. Ties (of equal mastery) in the heuristic selection algorithm are broken
 - **giveStuBottomHint:** controls whether the suer should receive a bottom-out hint (last hint in the hint pathway that contains the answer)
 - **giveHintOnIncorrect:** controls whether an incorrect response should automatically force the user into the hint pathway
 - **keepMCOrder:** controls whether to preserve the order of MCQ choices in the spreadsheet
+
+
+
