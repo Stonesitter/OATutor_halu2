@@ -37,6 +37,32 @@ and controls the “Next” button based on lesson completion.
     height="800"
   ></iframe>
   ```
+
+## LimeSurvey Theme: `oatutor_next_toggle`
+
+This theme handles the “Next button” visibility logic for OATutor lessons.
+
+**Files included:**  
+- `custom.js` — hides/shows the Next button based on postMessage events from OATutor.  
+- `config.xml` / `manifest.json` — theme metadata and parent theme reference.
+
+**Usage:**
+1.1. Download the `limesurvey-theme/` folder from this repo.
+1.2. Zip it:
+   ```bash
+   cd limesurvey-theme
+   zip -r oatutor_next_toggle.zip .
+1.3. In LimeSurvey, go to:
+   Configuration → Themes → Upload Theme
+   Upload oatutor_next_toggle.zip.
+1.4. Apply it to your survey (Survey settings → Presentation → Theme).
+
+Once applied, any question group containing:
+<iframe id="oatutor-frame" src="..."></iframe>
+will automatically hide the “Next” button until OATutor sends the completion message.
+
+
+
 2. Ensure your survey page contains only **one active OATutor iframe**.
 If multiple are present, only the one with the ID `oatutor-frame` controls the button.
 
