@@ -133,8 +133,11 @@ class Platform extends React.Component {
 
 	// When the learning session ends, notify the parent (LS/Qualtrics)
 	if (prevState?.status !== this.state.status) {
+	    console.log('[OATutor] status change:', prevState?.status, '→', this.state.status);
 	    const s = this.state.status;
 	    if (s === "exhausted" || s === "graduated") {
+		console.log('[OATutor] sending completion from componentDidUpdate');
+
 		// fire-and-forget; safe even if <CompletionBeacon/> also runs
 		sendCompletionToParent({
 		    status: s,

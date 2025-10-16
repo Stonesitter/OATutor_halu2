@@ -1,0 +1,26 @@
+// src/util/parentMessaging.js
+
+// Read parent origin + token from the URL (MUST be before the hash)
+const qs = new URLSearchParams(window.location.search);
+const PARENT_ORIGIN = qs.get("parentOrigin");   // e.g. https://survey.example.edu
+const PM_TOKEN      = qs.get("pmToken");        // random token (optional)
+
+export function sendCompletionToParent(payload = {}) {
+  // Only if we are embedded and the parent provided an origin
+  if (!PARENT_ORIGIN) return;
+  if (window.parent === window) return;
+
+  const message = {
+    type: "OATUTOR_COMPLETE",
+    token: PM_TOKEN || null,
+    ...payload, // status, lessonId, whatever else you pass in
+  };
+
+  try {
+    window.parent.postMessage(message, PARENT_ORIGIN);
+    // console.debug("[OATutor] posted", message, "to", PARENT_ORIGIN);
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.error("postMessage failed:", e);
+  }
+}

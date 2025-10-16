@@ -1,25 +1,60 @@
 // src/util/parentMessaging.js
-export function sendCompletionToParent(payload = {}) {
+
+// 1) Capture init from parent
+(function installInitListenerOnce() {
+  if (window.__oatuInitListenerInstalled) return;
+  window.__oatuInitListenerInstalled = true;
+
+  window.addEventListener('message', (e) => {
+    const d = e?.data || {};
+    if (d.type !== 'OATU_INIT') return;
+
+    window._OATU_INIT = {
+      parentOrigin: d.parentOrigin || null,
+      token: d.token || null,
+    };
+    console.log('[OATutor] OATU_INIT received:', window._OATU_INIT);
+  });
+})();
+
+// 2) On first mount, ask parent for init if we’re iframed
+(function pingParentForInitOnce() {
+  if (window.__oatuInitPinged) return;
+  window.__oatuInitPinged = true;
+
+  if (window.parent !== window) {
+    try {
+      // We don't yet know the parent's origin, so target "*".
+      // Parent will validate our origin before responding.
+      window.parent.postMessage({ type: 'OATU_NEED_INIT' }, '*');
+      console.log('[OATutor] asked parent for OATU_INIT');
+    } catch (e) {
+      console.warn('[OATutor] failed to ask parent for init:', e);
+    }
+  }
+})();
+
+// 3) Send completion to parent using the stored init
+export function sendCompletionToParent(extra = {}) {
   try {
-    const qs = new URLSearchParams(window.location.search);
-    const parentOrigin = qs.get("parentOrigin");   // e.g. https://stonesitter.limesurvey.net
-    const token        = qs.get("pmToken");        // e.g. oatu_12345
+    if (window.parent === window) return; // not in an iframe
+    const parentOrigin = window._OATU_INIT?.parentOrigin || null;
+    const token = window._OATU_INIT?.token || null;
 
     if (!parentOrigin) {
-      console.warn("[OATutor] No parentOrigin in URL; not posting.");
+      console.warn('[OATutor] parentOrigin not set; skip postMessage.');
       return;
     }
-    if (window.parent === window) {
-      console.warn("[OATutor] Not inside an iframe; not posting.");
-      return;
-    }
-
-    window.parent.postMessage(
-      { type: "OATUTOR_COMPLETE", token, ...payload },
-      parentOrigin
-    );
-    console.log("[OATutor] Posted OATUTOR_COMPLETE →", parentOrigin, { token, payload });
+    const payload = { type: 'OATUTOR_COMPLETE', token, ...extra };
+    console.log('[OATutor] posting completion to parent:', parentOrigin, payload);
+    window.parent.postMessage(payload, parentOrigin);
   } catch (e) {
-    console.error("[OATutor] sendCompletionToParent failed:", e);
+    console.warn('[OATutor] sendCompletionToParent failed:', e);
   }
 }
+
+// Optional: helper for testing in the iframe console
+window.__oatuPingParent = function () {
+  sendCompletionToParent({ status: 'test-ping' });
+  console.log('[OATutor] ping; init =', window._OATU_INIT);
+};
