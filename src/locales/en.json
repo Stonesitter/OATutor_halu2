@@ -30,7 +30,7 @@
     },
     "hintsystem": 
     {
-        "hint": "Hint ",
+        "hint": "Feedback ",
         "answer": "Answer",
         "answerIs": "The answer is "
     },
