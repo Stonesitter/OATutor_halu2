@@ -649,29 +649,28 @@ class ProblemCard extends React.Component {
                                     justifyContent: "center",
                                 }}
                             >
-                                {(!this.showCorrectness ||
-                                    !this.allowRetry) && (
-                                    <img
-                                        className={classes.checkImage}
-                                        style={{
-                                            opacity:
-                                                this.state.isCorrect == null
-                                                    ? 0
-                                                    : 1,
-                                            width: "45%",
-                                        }}
-                                        alt="Exclamation Mark Icon"
-                                        title={`The instructor has elected to ${joinList(
-                                            !this.showCorrectness &&
-                                                "hide correctness",
-                                            !this.allowRetry &&
-                                                "disallow retries"
-                                        )}`}
-                                        {...stagingProp({
-                                            "data-selenium-target": `step-correct-img-${this.props.index}`,
-                                        })}
-                                        src={`${process.env.PUBLIC_URL}/static/images/icons/exclamation.svg`}
-                                    />
+                                {false && (
+                                  <img
+                                      className={classes.checkImage}
+                                      style={{
+                                          opacity:
+                                              this.state.isCorrect == null
+                                                  ? 0
+                                                  : 1,
+                                          width: "45%",
+                                      }}
+                                      alt="Exclamation Mark Icon"
+                                      title={`The instructor has elected to ${joinList(
+                                          !this.showCorrectness &&
+                                              "hide correctness",
+                                          !this.allowRetry &&
+                                              "disallow retries"
+                                      )}`}
+                                      {...stagingProp({
+                                          "data-selenium-target": `step-correct-img-${this.props.index}`,
+                                      })}
+                                      src={`${process.env.PUBLIC_URL}/static/images/icons/exclamation.svg`}
+                                  />
                                 )}
                                 {this.state.isCorrect &&
                                     this.showCorrectness &&
