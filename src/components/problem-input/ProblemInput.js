@@ -128,12 +128,16 @@ class ProblemInput extends React.Component {
 
         const problemAttempted = state.isCorrect != null
         const correctAnswer = Array.isArray(stepAnswer) ? stepAnswer[0] : hintAnswer[0]
-        const disableInput = problemAttempted && !allowRetry
 
         if (this.isMatrixInput()) {
             problemType = "MatrixInput"
         }
-        
+
+        const disableInput =
+            problemAttempted &&
+            !allowRetry &&
+            problemType !== "TextBox"
+
         try {
             window.mathVirtualKeyboard.layouts = [keyboardType];
         } catch {
