@@ -1,0 +1,22 @@
+[
+    {
+        "id": "a65c0c1inaccurate3_physics_aq_01a-aq1-fb-accurate",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Feedback",
+        "text": "[Physics Feedback $$1$$ ACCURATE placeholder]",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a65c0c1inaccurate3_physics_aq_01a-aq1-fb-inaccurate",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Feedback",
+        "text": "[Physics Feedback $$1$$ INACCURATE placeholder]",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

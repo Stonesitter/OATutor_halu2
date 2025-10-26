@@ -1,0 +1,11 @@
+{
+    "id": "a073edbcontrol_chem_pre_01a",
+    "stepAnswer": [
+        "placeholder"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "Q1",
+    "stepBody": "They can have the same number of protons:\\n",
+    "answerType": "string",
+    "variabilization": {}
+}

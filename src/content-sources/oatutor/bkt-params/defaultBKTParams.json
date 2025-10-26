@@ -17,97 +17,205 @@
         "probSlip": 0.1,
         "probGuess": 0.1
     },
+    "feedback_literacy": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
     "demographic": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "control_physics_kc_1_pre": {
+    "control_chem_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "control_physics_kc_1_aq": {
+    "control_chem_kc_2_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "control_physics_kc_1_post": {
+    "control_chem_kc_3_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "accurate_physics_kc_1_pre": {
+    "control_chem_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "accurate_physics_kc_1_aq": {
+    "control_chem_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "accurate_physics_kc_1_test": {
+    "control_chem_kc_2_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate1_physics_kc_1_pre": {
+    "control_chem_kc_3_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate1_physics_kc_1_aq": {
+    "acc_chem_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate1_physics_kc_1_post": {
+    "acc_chem_kc_2_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate2_physics_kc_1_pre": {
+    "acc_chem_kc_3_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate2_physics_kc_1_aq": {
+    "accurate_chem_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate2_physics_kc_1_post": {
+    "acc_chem_kc_1_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate3_physics_kc_1_pre": {
+    "acc_chem_kc_2_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate3_physics_kc_1_aq": {
+    "acc_chem_kc_3_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "inaccurate3_physics_kc_1_post": {
+    "inacc1_chem_kc_1_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc1_chem_kc_2_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc1_chem_kc_3_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inaccurate1_chem_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc1_chem_kc_1_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc1_chem_kc_2_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc1_chem_kc_3_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_1_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_2_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_3_pre": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inaccurate2_chem_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_1_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_2_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc2_chem_kc_3_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inaccurate3_chem_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc3_chem_kc_1_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc3_chem_kc_2_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inacc3_chem_kc_3_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,

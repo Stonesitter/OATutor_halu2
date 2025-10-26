@@ -1,11 +1,11 @@
 [
     {
-        "courseName": "Marlene_OATutor_Projekt_General",
+        "courseName": "General",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "4eqxr86N-hgpa-bXSf0iJ6Z5",
+                "id": "1uf3UUnv-JRbE-980PPpypoy",
                 "name": "Lesson Prolific",
                 "topics": "ID",
                 "allowRecycle": false,
@@ -18,7 +18,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "2RrtAy6e-nfNp-EV4VjZmGQ2",
+                "id": "3lBWtgaD-xAiq-waQZhNCbDL",
                 "name": "Lesson Consent",
                 "topics": "Form",
                 "allowRecycle": false,
@@ -31,8 +31,8 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "1YjWQIN7-TMpv-FxHeHbZj2A",
-                "name": "Lesson Questionnaire",
+                "id": "5ZYTvyyk-C2KP-o4VC0GWXTd",
+                "name": "Lesson oldQuestionnaire",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
@@ -41,10 +41,31 @@
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
-                "giveStuFeedback": false
+                "giveStuFeedback": false,
+                "fixedProblemOrder": [
+                    "af26cb7Confusion",
+                    "af26cb7Usefulness",
+                    "af26cb7Motivation",
+                    "af26cb7Mathematics",
+                    "af26cb7Perceived"
+                ]
             },
             {
-                "id": "3ZwuSRd3-ZDzZ-zw3jBthAWg",
+                "id": "45FCBlk2-hPLt-sh7K6Y7LYK",
+                "name": "Lesson Feedback-Literacy",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "feedback_literacy": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "fixedOrderProblem": true
+            },
+            {
+                "id": "2tZ040W4-u2MO-aTCsqnbWbL",
                 "name": "Lesson Demographic",
                 "topics": "",
                 "allowRecycle": false,
@@ -59,17 +80,19 @@
         ]
     },
     {
-        "courseName": "Marlene_OATutor_Projekt_control",
+        "courseName": "Control",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "67BaEYcm-xLQY-7AO9IQQRwX",
-                "name": "Lesson Pretest",
+                "id": "416cm3X2-SbZb-bSYRyfNH7y",
+                "name": "Lesson Control_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "control_physics_kc_1_pre": 0.85
+                    "control_chem_kc_1_pre": 0.85,
+                    "control_chem_kc_2_pre": 0.85,
+                    "control_chem_kc_3_pre": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -77,24 +100,27 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "2cAHwkAq-gwyy-QOJSFWUa2D",
-                "name": "Lesson AQ_Feedback",
+                "id": "6kGTzNom-cTyG-l6KUdnl0Xn",
+                "name": "Lesson Control_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "control_physics_kc_1_aq": 0.85
+                    "control_chem_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
-                "keepMCOrder": true
+                "keepMCOrder": true,
+                "giveStuFeedback": false
             },
             {
-                "id": "0tAElmXJ-KNKL-fZpdxe7TI4",
-                "name": "Lesson Posttest",
+                "id": "5qQvB1T9-Fuyu-DEH3XsrqPS",
+                "name": "Lesson Control_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "control_physics_kc_1_post": 0.85
+                    "control_chem_kc_1_post": 0.85,
+                    "control_chem_kc_2_post": 0.85,
+                    "control_chem_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -104,17 +130,19 @@
         ]
     },
     {
-        "courseName": "Marlene_OATutor_Projekt_accurate",
+        "courseName": "Accurate",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "42H2qCGV-6hKC-9dDyAYivcw",
-                "name": "Lesson Pretest",
+                "id": "5wGnIkGb-lo9y-VtzAH2IQ9B",
+                "name": "Lesson Acc_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "accurate_physics_kc_1_pre": 0.85
+                    "acc_chem_kc_1_pre": 0.85,
+                    "acc_chem_kc_2_pre": 0.85,
+                    "acc_chem_kc_3_pre": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -122,12 +150,12 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "0iU2Aexs-MwrC-cqKvw6P8Ah",
-                "name": "Lesson AQ_Feedback",
-                "topics": "accurate",
+                "id": "0OwFV7Be-Deve-ktNaF2Wfmn",
+                "name": "Lesson Accurate_Chem_AQ_Feedback",
+                "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "accurate_physics_kc_1_aq": 0.85
+                    "accurate_chem_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -135,21 +163,14 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "0zDG8em7-VvYT-qRyNk52cSs",
-                "name": "Lesson This_is_a_test_sheet",
-                "topics": "",
-                "allowRecycle": true,
-                "learningObjectives": {
-                    "accurate_physics_kc_1_test": 0.85
-                }
-            },
-            {
-                "id": "6aBjQwul-ehAY-otRj7hHorS",
-                "name": "Lesson Posttest",
+                "id": "4OVftGri-Ivcg-uuZ4wFefMn",
+                "name": "Lesson Acc_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "accurate_physics_kc_1_test": 0.85
+                    "acc_chem_kc_1_post": 0.85,
+                    "acc_chem_kc_2_post": 0.85,
+                    "acc_chem_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -159,17 +180,19 @@
         ]
     },
     {
-        "courseName": "Marlene_OATutor_Projekt_inaccurate1\n",
+        "courseName": "Inaccurate1\n",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "0r6sypzk-GGRx-mr8ERBWlGJ",
-                "name": "Lesson Pretest",
+                "id": "5HzmMl3k-2PjD-K91jj95udO",
+                "name": "Lesson Inacc1_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate1_physics_kc_1_pre": 0.85
+                    "inacc1_chem_kc_1_pre": 0.85,
+                    "inacc1_chem_kc_2_pre": 0.85,
+                    "inacc1_chem_kc_3_pre": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -177,12 +200,12 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "01MH4qUD-Kzdr-vUlsxysl5x",
-                "name": "Lesson AQ_Feedback",
+                "id": "7YgGXFs0-WSSL-3rhV5nsEIV",
+                "name": "Lesson Inacc1_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate1_physics_kc_1_aq": 0.85
+                    "inaccurate1_chem_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -190,12 +213,14 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "6Dyxb5pb-YQiq-Xtz3a3ycOK",
-                "name": "Lesson Posttest",
+                "id": "4tSUvzDF-uXOC-rlxrAJK6gb",
+                "name": "Lesson Inacc1_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate1_physics_kc_1_post": 0.85
+                    "inacc1_chem_kc_1_post": 0.85,
+                    "inacc1_chem_kc_2_post": 0.85,
+                    "inacc1_chem_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -205,17 +230,19 @@
         ]
     },
     {
-        "courseName": "Marlene_OATutor_Projekt_inaccurate2\n\n",
+        "courseName": "Inaccurate2\n\n",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "77Nc4mSn-10go-9dXjEArjo8",
-                "name": "Lesson Pretest",
+                "id": "3Nody3mq-7qSn-cyQ7rvyJAV",
+                "name": "Lesson Inacc2_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate2_physics_kc_1_pre": 0.85
+                    "inacc2_chem_kc_1_pre": 0.85,
+                    "inacc2_chem_kc_2_pre": 0.85,
+                    "inacc2_chem_kc_3_pre": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -223,12 +250,12 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "6KWOxdSV-3YXo-Zje84oszdk",
-                "name": "Lesson AQ_Feedback",
+                "id": "6euH4EW9-a25o-xfNWxRilp4",
+                "name": "Lesson Inacc2_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate2_physics_kc_1_aq": 0.85
+                    "inaccurate2_chem_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -236,12 +263,14 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "7gd59ofK-IAWr-avyzchcM2L",
-                "name": "Lesson Posttest",
+                "id": "1XcWVecZ-Ruup-nZ8Apmyi2L",
+                "name": "Lesson Inacc2_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate2_physics_kc_1_post": 0.85
+                    "inacc2_chem_kc_1_post": 0.85,
+                    "inacc2_chem_kc_2_post": 0.85,
+                    "inacc2_chem_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -251,17 +280,19 @@
         ]
     },
     {
-        "courseName": "Marlene_OATutor_Projekt_inaccurate3\n\n",
+        "courseName": "Inaccurate3\n\n",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "3wAoBU4C-t4bJ-UUm615Komr",
-                "name": "Lesson Pretest",
+                "id": "1cGQIOVI-9A3Q-Dyi3kCVqiD",
+                "name": "Lesson Inacc3_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate3_physics_kc_1_pre": 0.85
+                    "inacc2_chem_kc_1_pre": 0.85,
+                    "inacc2_chem_kc_2_pre": 0.85,
+                    "inacc2_chem_kc_3_pre": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -269,12 +300,12 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "5lpn5tRN-odCe-u7aBIekmBe",
-                "name": "Lesson AQ_Feedback",
+                "id": "7AjWh3ml-nf89-kKqPBUiUiz",
+                "name": "Lesson Inacc3_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate3_physics_kc_1_aq": 0.85
+                    "inaccurate3_chem_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -282,12 +313,14 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "0EigBWpg-B6XL-IjcOtnVgdJ",
-                "name": "Lesson Posttest",
+                "id": "0pLU4Cse-sjNm-605uqoNy5h",
+                "name": "Lesson Inacc3_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "inaccurate3_physics_kc_1_post": 0.85
+                    "inacc3_chem_kc_1_post": 0.85,
+                    "inacc3_chem_kc_2_post": 0.85,
+                    "inacc3_chem_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,

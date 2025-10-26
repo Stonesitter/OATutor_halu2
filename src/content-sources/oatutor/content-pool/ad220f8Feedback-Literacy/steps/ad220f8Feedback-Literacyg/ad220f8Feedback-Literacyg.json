@@ -1,0 +1,18 @@
+{
+    "id": "ad220f8Feedback-Literacyg",
+    "stepAnswer": [
+        "(1) \"does not apply at all\""
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "When dealing with feedback, I try to keep my emotional balance.",
+    "stepBody": "",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "(1) \"does not apply at all\"",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5) \"applies completely\""
+    ]
+}

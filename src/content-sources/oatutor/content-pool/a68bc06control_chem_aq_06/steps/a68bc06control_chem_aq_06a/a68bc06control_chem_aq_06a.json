@@ -1,0 +1,15 @@
+{
+    "id": "a68bc06control_chem_aq_06a",
+    "stepAnswer": [
+        "O2"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "What is the limiting reagent?",
+    "stepBody": "In the combustion reaction given, 112g of O2 reacts with $$195$$ g ethene (C2H4): C2H4 (g) + O2 (g) -> CO2 + H2O",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "C2H4",
+        "O2"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "aaad1f5control_chem__post_02a",
+    "stepAnswer": [
+        "C $$=$$ $$1$$, H $$=$$ $$2$$, O $$=$$ $$3$$\\n"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "How many of each atom are there on the products side?\\n\\n",
+    "stepBody": "A balanced reaction equation must have the same number of atoms of each element on both sides of the equation. The reaction represents the combustion of octane: C8H18+ O2\u27f6 CO2+ H2O",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "C $$=$$ $$1$$, H $$=$$ $$2$$, O $$=$$ $$3$$\\n",
+    "choices": [
+        "C $$=$$ $$1$$, H $$=$$ $$2$$, O $$=$$ $$3$$",
+        "C $$=$$ $$1$$, H $$=$$ $$2$$, O $$=$$ $$3$$\\n",
+        "C $$=$$ $$1$$, H $$=$$ $$3$$, O $$=$$ $$2$$",
+        "C $$=$$ $$2$$, H $$=$$ $$2$$, O $$=$$ $$2$$",
+        "C $$=$$ $$3$$, H $$=$$ $$2$$, O $$=$$ $$1$$"
+    ]
+}
