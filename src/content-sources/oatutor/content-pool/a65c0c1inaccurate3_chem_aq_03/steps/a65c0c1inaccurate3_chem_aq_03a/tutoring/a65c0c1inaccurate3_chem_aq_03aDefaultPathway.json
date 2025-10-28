@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "a65c0c1inaccurate3_chem_aq_03a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "Let's analyze each statement carefully:\\n\\n**A. The Xy+ ion is formed when a neutral Xy atom gains one proton.**\\n*_False._**\\n- To form Xy\u2030\u0081\u00bc, the neutral atom must **lose** a proton, not gain one. Gaining a proton would make it more positively charged, but typically, ions formed by gaining a proton are cations; however, in this context, that statement is incorrect because losing a proton results in a positive ion.\\n\\n**B. When a neutral atom loses electrons, it forms an anion (negative ion).**\\n*_False._**\\n- Losing electrons results in a positive ion (cation), not a negative ion (anion).\\n\\n**C. Anions have more electrons than protons.**\\n*_True._**\\n- Yes, anions are negatively charged due to having more electrons than protons.\\n\\n**D. The Xy\u00e5?\u2030\u0081\u00bc and Xy\u00e5?\u2030\u0081\u00bc ions of Xylo have the same number of neutrons.**\\n*_True._**\\n- Neutrons are unaffected by ionization (losing or gaining electrons). The number of neutrons depends on the isotope, not on the charge, so they have the same neutrons.\\n\\n**E. If a neutral Xy atom has $$50$$ electrons, the Xy\u00e5?\u2030\u0081\u00bc ion of Xylo will have $$48$$ electrons.**\\n*_True._**\\n- A neutral atom with $$50$$ electrons has $$50$$ electrons and $$50$$ protons. Losing $$2$$ electrons (to become Xy\u00e5?\u2030\u0081\u00bc) results in $$48$$ electrons.\\n\\n**F. The Xy\u2030\u0081\u00c8 and Xy\u2030\u0081\u00bc ions of Xylo have the same number of protons but a different number of electrons.**\\n*_True._**\\n- Yes. The number of protons (atomic number) remains constant regardless of ion charge, but the number of electrons changes, leading to different charges.\\n\\n---\\n\\nCorrect choices:\\n- Looking at the options, the only set that includes all the accurate statements is **F** (since it contains the correct statements C, D, E, and F).\\n\\n---\\n\\n**Final answer:**\\n\\n**F | D, E, F**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

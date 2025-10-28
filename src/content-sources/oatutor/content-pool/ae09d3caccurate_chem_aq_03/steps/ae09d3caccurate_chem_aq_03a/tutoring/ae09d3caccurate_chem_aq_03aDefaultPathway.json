@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "ae09d3caccurate_chem_aq_03a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "Let's analyze each statement carefully:\\n\\n**A. The Xy+ ion is formed when a neutral Xy atom gains one proton.**\\n- A neutral atom contains equal numbers of protons and electrons. To form a *positive* ion (cation), it must *lose* electrons (not gain). Gaining a proton (which is a positive charge) is not typical for ion formation; instead, ion formation involves electron transfer.\\n**This statement is false.**\\n\\n---\\n\\n**B. When a neutral atom loses electrons, it forms an anion (negative ion).**\\n- Losing electrons results in a *positive* ion, which is a cation.\\n- Anions are negatively charged ions formed when atoms gain electrons, not lose.\\n**This statement is false.**\\n\\n---\\n\\n**C. Anions have more electrons than protons.**\\n- Correct. Anions are negatively charged, meaning more electrons than protons.\\n**This statement is true.**\\n\\n---\\n\\n**D. The Xy2+ and Xy3+ ions of Xylo have the same number of neutrons.**\\n- The number of neutrons depends on the isotope, not the charge. Since both are ions of the same element and isotope type, they have the same number of neutrons.\\n**This statement is true.**\\n\\n---\\n\\n**E. If a neutral Xy atom has $$50$$ electrons, the Xy2+ ion of Xylo will have $$48$$ electrons.**\\n- A neutral atom with $$50$$ electrons has $$50$$ protons (assuming it's neutral).\\n- Losing $$2$$ electrons results in $$48$$ electrons in the ion.\\n**This statement is true.**\\n\\n---\\n\\n**F. The Xy- and Xy+ ions of Xylo have the same number of protons but a different number of electrons.**\\n- Correct. Both are ions of the same element\u2030\u00db\u00d3they have the same number of protons, but different electrons because they have different charges (one gained electrons, the other lost).\\n**This statement is true.**\\n\\n---\\n\\n**Summary of true statements:**\\n\\n- C\\n- D\\n- E\\n- F\\n\\n**Therefore, the correct choice is:**\\n**C, D, E, F**\\n\\n---\\n\\n**Answer: |C, D, E, F|**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

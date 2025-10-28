@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "a297b8ainaccurate2_chem_aq_04a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "Let's analyze the reaction and find the percentage yield step by step.\\n\\n**Reaction:**\\n\\n\\[ \\text{Salicylic acid} \\ $$C_7 H_6 O_3$$ + \\text{Acetic anhydride} \\ $$C_4 H_6 O_3$$ \\rightarrow \\text{Aspirin} \\ $$C_9 H_8 O_4$$ + \\text{Acetic acid} \\ $$CH_3 CO_2 H$$ \\]\\n\\n---\\n\\nStep 1: Find the theoretical yield of aspirin\\n\\n**Given:**\\n\\n- Actual yield of aspirin $$=$$ $$54.8$$ g\\n- Mass of salicylic acid used $$=$$ $$96.2$$ g (assuming the correct value is $$96.2$$ g; the question had a typo $$\"96.296.2$$ g\")\\n\\nStep 2: Determine the molar masses\\n\\n| Compound | Formula | Molar Mass $$\\frac{g}{mol}$$ |\\n|----------------------|---------------|--------------------|\\n| Salicylic acid | C\u2030\u00e2\u00e0H\u2030\u00e2 O\u2030\u00e2\u00c4 | $$138.12$$ |\\n| Acetic anhydride | C\u2030\u00e2\u00e3H\u2030\u00e2 O\u2030\u00e2\u00c4 | $$102.09$$ |\\n| Aspirin | C\u2030\u00e2\u00e4H\u2030\u00e2\u00f6O\u2030\u00e2\u00e3 | $$180.16$$ |\\n\\nStep 3: Calculate moles of salicylic acid used\\n\\n\\[\\n\\text{moles of salicylic acid} $$=$$ \\frac{\\text{mass}}{\\text{molar mass}} $$=$$ $$\\frac{96.2$$ \\text{ $$g}}{138.12$$ \\text{ g/mol}}\\n\\]\\n\\n\\[\\n$$=$$ $$0.697$$ \\text{ mol} \\quad (\\text{approximate})\\n\\]\\n\\nStep 4: Write the molar ratio from the balanced reaction\\n\\n\\[ \\text{1 mol salicylic acid} \\rightarrow \\text{1 mol aspirin} \\]\\n\\nAccording to the reaction, $$1$$ mol of salicylic acid produces $$1$$ mol of aspirin.\\n\\nStep 5: Calculate the maximum theoretical mass of aspirin\\n\\n\\[\\n\\text{mass of aspirin} $$=$$ \\text{moles} \\times \\text{molar mass} $$=$$ $$0.697$$ \\text{ mol} \\times $$180.16$$ \\text{ $$\\frac{g}{mol}$$}\\n\\]\\n\\n\\[\\n$$=$$ $$125.46$$ \\text{ g}\\n\\]\\n\\nThis is the theoretical maximum amount of aspirin that could be produced from $$96.2$$ g of salicylic acid.\\n\\n---\\n\\nStep 6: Calculate the percentage yield\\n\\n\\[\\n\\text{Percentage yield} $$=$$ \\frac{\\text{actual yield}}{\\text{theoretical yield}} \\times $$100$$ $$=$$ $$\\frac{54.8$$ \\text{ $$g}}{125.46$$ \\text{ g}} \\times $$100$$\\n\\]\\n\\n\\[\\n$$=$$ $$43.7\\\\%$$\\n\\]\\n\\n---\\n\\n**Final answer:**\\n\\n**The percentage yield of the reaction is approximately \\(\\boxed{43.7\\%}\\).**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

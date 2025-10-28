@@ -5,7 +5,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "5wJAGWea-4C47-wRKQWOJf1A",
+                "id": "1lCmaCPd-OH8q-Hm3okBNgqd",
                 "name": "Lesson firstChunk",
                 "topics": "",
                 "allowRecycle": false,
@@ -22,7 +22,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "0PhAgCrX-kZuK-pFt0J1jOKC",
+                "id": "3ikWAShc-wQXj-7EqLNUVVxC",
                 "name": "Lesson secondChunk",
                 "topics": "",
                 "allowRecycle": false,
@@ -33,15 +33,16 @@
                     "aa0841eDemographic",
                     "aa0841eFeedback-Literacy"
                 ],
+                "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false
             },
             {
-                "id": "0O8DVVAt-bAkC-QbTKHsVhMH",
+                "id": "6wvgQ0B2-HreR-092cJgS77i",
                 "name": "Lesson thirdChunk",
                 "topics": "",
-                "allowRecycle": false,
+                "allowRecycle": true,
                 "learningObjectives": {
                     "thirdchunk": 0.85
                 },
@@ -56,7 +57,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "5Jwc8uZj-GzXl-jeeLDWzMog",
+                "id": "3tI1oR07-0ILm-rQ9BF5FutY",
                 "name": "Lesson fourthChunk",
                 "topics": "",
                 "allowRecycle": false,
@@ -73,7 +74,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "3nnJIQGn-2tzU-ULIj37EsKf",
+                "id": "6KTedrZ8-ErcA-ZkkO6kA4Yz",
                 "name": "Lesson Motivation[subject]",
                 "topics": "",
                 "allowRecycle": false,
@@ -93,7 +94,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "6pIceJNN-O0Xc-2pW6ebA3Up",
+                "id": "4DgAc6BO-6thO-31njIECx6I",
                 "name": "Lesson Control_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
@@ -108,7 +109,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "56r80HSk-Mz1S-bZq5XqHB6K",
+                "id": "61pgjmW1-9AmI-Ti4e6VFFVx",
                 "name": "Lesson Control_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
@@ -121,7 +122,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "0tl1sxsh-j1KV-GrFJTylPjb",
+                "id": "77bc2Kyz-bjZq-QuRByGlkDJ",
                 "name": "Lesson Control_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
@@ -143,7 +144,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "0aTYC8iD-lv7O-ADYgAEgVj1",
+                "id": "3VqZ5HD8-x1oy-EIYMepZpjd",
                 "name": "Lesson Acc_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
@@ -158,7 +159,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "4EE1lbYt-j6qM-gfnKikfxvs",
+                "id": "2Mi8ycD3-HvMF-PGmabYBZ2m",
                 "name": "Lesson Accurate_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
@@ -171,7 +172,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "3fKilpyg-Wyh8-QZX1o5nzpL",
+                "id": "7ggb1dqX-oXnM-D5XysBXs2o",
                 "name": "Lesson Acc_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
@@ -193,7 +194,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "5Nb13kAx-kKQl-PGAGhWw4iP",
+                "id": "2JZNDkIo-PREM-1uE6bsarMy",
                 "name": "Lesson Inacc1_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
@@ -208,7 +209,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "7ja09NHd-oznW-BUvsIEbP3W",
+                "id": "6hVvo0ug-eHjt-9A9xH1tje7",
                 "name": "Lesson Inacc1_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
@@ -218,10 +219,11 @@
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
-                "giveStuFeedback": false
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
             },
             {
-                "id": "2DaydVVH-gf1X-p2hJDEpwpy",
+                "id": "6VX8FCr9-KGfr-uWHl3mMoUI",
                 "name": "Lesson Inacc1_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
@@ -243,7 +245,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "7KCQ8LZL-ApAk-6w3tUIhLhr",
+                "id": "5gQJXsjz-zyN0-MKoYt3181f",
                 "name": "Lesson Inacc2_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
@@ -258,7 +260,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "4zhHuQOl-NOM8-7dhyJdp3jL",
+                "id": "6GPLysH4-WkG1-cDjzYFidcA",
                 "name": "Lesson Inacc2_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
@@ -268,10 +270,11 @@
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
-                "giveStuFeedback": false
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
             },
             {
-                "id": "0Pypx5wG-wIdb-11SwcEflTF",
+                "id": "4Pw2505r-172U-OomndMU4Eg",
                 "name": "Lesson Inacc2_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
@@ -293,7 +296,7 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "7HSsYivB-n91L-aKhJeCbbKl",
+                "id": "1lcwZzEv-vHTb-iEh30MWTcb",
                 "name": "Lesson Inacc3_Chem_Pre",
                 "topics": "",
                 "allowRecycle": false,
@@ -308,7 +311,7 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "1955i4B1-c0Cu-iJd5ubXtn5",
+                "id": "6uXc8S5r-Ljlm-CYjNsPocTD",
                 "name": "Lesson Inacc3_Chem_AQ_Feedback",
                 "topics": "",
                 "allowRecycle": false,
@@ -318,10 +321,11 @@
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
-                "giveStuFeedback": false
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
             },
             {
-                "id": "1TxtvbE4-L9Qs-oCEfvB6KWc",
+                "id": "7OsRFpkW-rXYu-eBHQUgLJf0",
                 "name": "Lesson Inacc3_Chem_Post",
                 "topics": "",
                 "allowRecycle": false,
