@@ -21,9 +21,9 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - create german version
 - support new Tag (fixedProblemOrder) - make sure that it is the first Tag so that it reads every Problem ID correctly.
   - works with my custom OATutor-Tooling, which copies order of ProblemIDs in coursePlans.json
+- remove every clickable hyperlink element in the footer
 
 #### todo ####
-- remove every clickable hyperlink element
 - reestablish fork to original repo
 - remove lessons header 
 
