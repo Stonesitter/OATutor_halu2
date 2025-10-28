@@ -578,34 +578,15 @@ class Problem extends React.Component {
                             {licenseName !== "" && licenseLink !== "" ? (
                                 <div>
                                     "{problem.title}" {translate('problem.Derivative')}&nbsp;
-                                    <a
-                                        href={oerLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        "{oerName}"
-                                    </a>
-                                    {translate('problem.Used')}&nbsp;
-                                    <a
-                                        href={licenseLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        {licenseName}
-                                    </a>
+                                    "{oerName}" {translate('problem.Used')}&nbsp;
+                                    {licenseName}
                                 </div>
                             ) : (
                                 <div>
                                 {oerName !== "" && oerLink !== "" ? (
                                 <div>
                                     "{problem.title}" {translate('problem.Derivative')}&nbsp;
-                                    <a
-                                        href={oerLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        "{oerName}"
-                                    </a>
+                                    "{oerName}"
                                 </div>
                             ) : (
                                 <></>
@@ -625,6 +606,7 @@ class Problem extends React.Component {
                                 aria-label="help"
                                 title={`How to use ${SITE_NAME}?`}
                                 href={`${window.location.origin}${window.location.pathname}#/posts/how-to-use`}
+				disabled
                             >
                                 <HelpOutlineOutlinedIcon
                                     htmlColor={"#000"}
@@ -638,6 +620,7 @@ class Problem extends React.Component {
                                 aria-label="report problem"
                                 onClick={this.toggleFeedback}
                                 title={"Report Problem"}
+				disabled
                             >
                                 <FeedbackOutlinedIcon
                                     htmlColor={"#000"}
