@@ -15,11 +15,17 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - deactivate Correct/Incorrect Feedback (already from old study)
 - deactivate show Hint-Button
 - make Next Button invisible until Lessons are completed (possible in Limesurvey with Customtheme)
-
-#### todo ####
 - deactivate exclamation mark
 - rename Hint to Feedback
 - make Solutionbox editable after first submit
+- create german version
+- support new Tag (fixedProblemOrder) - make sure that it is the first Tag so that it reads every Problem ID correctly.
+  - need custom OATutor-Tooling, which copies order of ProblemIDs in coursePlans.json
+
+#### todo ####
+- remove every clickable hyperlink element
+- reestablish fork to original repo
+
 
 ### original readme ###
 
