@@ -1,0 +1,19 @@
+{
+    "id": "ac4d64dConfusiond",
+    "stepAnswer": [
+        "$$1$$ $$-$$ Not at all"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is an attention check. Please click \u201c5 - Very strong\"\\n\u201d",
+    "stepBody": "",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "$$1$$ - Not at all",
+    "choices": [
+        "$$1$$ $$-$$ Not at all",
+        "$$2$$ $$-$$ Slightly",
+        "$$3$$ $$-$$ Moderately",
+        "$$4$$ $$-$$ Strong",
+        "$$5$$ $$-$$ Very strong"
+    ]
+}

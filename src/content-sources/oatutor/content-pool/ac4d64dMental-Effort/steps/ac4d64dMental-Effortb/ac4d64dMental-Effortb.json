@@ -1,0 +1,22 @@
+{
+    "id": "ac4d64dMental-Effortb",
+    "stepAnswer": [
+        "(1) \"strongly disagree\""
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Working on this activity was mentally demanding.",
+    "stepBody": "",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "(1) \"strongly disagree\"",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)",
+        "(8)",
+        "(9) \"strongly agree\""
+    ]
+}

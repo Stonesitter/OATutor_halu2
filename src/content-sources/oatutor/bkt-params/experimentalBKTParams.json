@@ -1,29 +1,29 @@
 {
-    "prolific_id": {
+    "firstchunk": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "consent": {
+    "secondchunk": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "thirdchunk": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "fourthchunk": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
     "questionaire": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "feedback_literacy": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
-    "demographic": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,

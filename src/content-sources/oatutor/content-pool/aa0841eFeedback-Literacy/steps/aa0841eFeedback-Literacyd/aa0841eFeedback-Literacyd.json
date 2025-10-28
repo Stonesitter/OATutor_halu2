@@ -1,0 +1,18 @@
+{
+    "id": "aa0841eFeedback-Literacyd",
+    "stepAnswer": [
+        "(1) \"does not apply at all\""
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "I believe that people with different perspectives will give me different feedback.",
+    "stepBody": "",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "(1) \"does not apply at all\"",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5) \"applies completely\""
+    ]
+}

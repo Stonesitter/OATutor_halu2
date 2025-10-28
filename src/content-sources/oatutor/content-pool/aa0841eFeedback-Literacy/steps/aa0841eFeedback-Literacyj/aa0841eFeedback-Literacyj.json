@@ -1,0 +1,18 @@
+{
+    "id": "aa0841eFeedback-Literacyj",
+    "stepAnswer": [
+        "(1) \"does not apply at all\""
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "I conclude from feedback how to do things in the future.",
+    "stepBody": "",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "(1) \"does not apply at all\"",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5) \"applies completely\""
+    ]
+}
