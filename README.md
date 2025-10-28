@@ -20,12 +20,12 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - make Solutionbox editable after first submit
 - create german version
 - support new Tag (fixedProblemOrder) - make sure that it is the first Tag so that it reads every Problem ID correctly.
-  - need custom OATutor-Tooling, which copies order of ProblemIDs in coursePlans.json
+  - works with my custom OATutor-Tooling, which copies order of ProblemIDs in coursePlans.json
 
 #### todo ####
 - remove every clickable hyperlink element
 - reestablish fork to original repo
-
+- remove lessons header 
 
 ### original readme ###
 
