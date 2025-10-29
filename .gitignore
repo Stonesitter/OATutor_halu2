@@ -39,3 +39,11 @@ pnpm-lock.yaml
 .github/workflows/
 # Local env
 .env*
+.aider*
+.env
+.env
+.env
+.env
+.env
+.env
+.env
