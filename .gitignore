@@ -57,3 +57,4 @@ pnpm-lock.yaml
 .env
 .env
 .env
+src/config/firebaseConfig.js
