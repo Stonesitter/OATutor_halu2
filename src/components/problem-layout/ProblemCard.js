@@ -32,7 +32,8 @@ import {
 } from "./ToastNotifyCorrectness";
 import { joinList } from "../../util/formListString";
 import axios from "axios";
-import withTranslation from "../../util/withTranslation.js"
+import withTranslation from "../../util/withTranslation.js";
+import { sendAnswerSubmissionToParent } from "../../util/parentMessaging";
 
 class ProblemCard extends React.Component {
     static contextType = ThemeContext;
@@ -202,6 +203,11 @@ class ProblemCard extends React.Component {
         const { seed, problemVars, problemID, courseName, answerMade, lesson } =
             this.props;
 
+	const hintsProgress = Array.isArray(hintsFinished)
+            ? [...hintsFinished]
+            : [];
+
+
         if (inputVal == '') {
             toastNotifyEmpty(this.translate)
             return;
@@ -252,6 +258,42 @@ class ProblemCard extends React.Component {
             checkMarkOpacity: isCorrect ? "100" : "0",
         });
         answerMade(this.index, knowledgeComponents, isCorrect);
+
+        const lessonMetadata =
+            lesson && typeof lesson === "object"
+                ? {
+                      id:
+                          lesson.lessonID ??
+                          lesson.lessonId ??
+                          lesson.id ??
+                          lesson.lesson_id ??
+                          null,
+                      name:
+                          lesson.lessonName ??
+                          lesson.lesson_name ??
+                          lesson.name ??
+                          lesson.title ??
+                          lesson.displayName ??
+                          null,
+                  }
+                : null;
+
+        sendAnswerSubmissionToParent({
+            problemId: problemID ?? null,
+            stepId: this.step?.id ?? null,
+            stepTitle: stepTitle ?? null,
+            stepIndex: this.index,
+            courseName: courseName ?? null,
+            lesson: lessonMetadata,
+            seed,
+            attemptRaw: inputVal,
+            attemptEvaluated: parsed,
+            isCorrect,
+            reason: reason ?? null,
+            knowledgeComponents: knowledgeComponents ?? [],
+            hintsProgress,
+            usedHints: this.state.usedHints,
+        });
     };
 
     editInput = (event) => {

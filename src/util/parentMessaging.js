@@ -34,8 +34,7 @@
   }
 })();
 
-// 3) Send completion to parent using the stored init
-export function sendCompletionToParent(extra = {}) {
+function postToParent(type, extra = {}, logContext = 'message') {
   try {
     if (window.parent === window) return; // not in an iframe
     const parentOrigin = window._OATU_INIT?.parentOrigin || null;
@@ -45,12 +44,28 @@ export function sendCompletionToParent(extra = {}) {
       console.warn('[OATutor] parentOrigin not set; skip postMessage.');
       return;
     }
-    const payload = { type: 'OATUTOR_COMPLETE', token, ...extra };
-    console.log('[OATutor] posting completion to parent:', parentOrigin, payload);
+
+    const payload = { type, token, ...extra };
+    console.log(`[OATutor] posting ${logContext} to parent:`, parentOrigin, payload);
     window.parent.postMessage(payload, parentOrigin);
   } catch (e) {
     console.warn('[OATutor] sendCompletionToParent failed:', e);
+    console.warn('[OATutor] postToParent failed:', e);
   }
+}
+
+// 3) Send completion to parent using the stored init
+export function sendCompletionToParent(extra = {}) {
+    postToParent('OATUTOR_COMPLETE', extra, 'completion');
+}
+
+// 4) Send answer submission events to the parent for logging/analytics
+export function sendAnswerSubmissionToParent(extra = {}) {
+    const payload = { ...extra };
+    if (!('timestamp' in payload)) {
+	payload.timestamp = new Date().toISOString();
+  }
+    postToParent('OATUTOR_ANSWER_SUBMITTED', payload, 'answer submission');
 }
 
 // Optional: helper for testing in the iframe console
