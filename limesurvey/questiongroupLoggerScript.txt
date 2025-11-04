@@ -1,0 +1,37 @@
+<script>
+(function() {
+  const CHILD_ORIGIN = 'https://stonesitter.github.io';  // your OATutor deployment origin
+  const HIDDEN_INPUT_SELECTOR = '#answer{G01log.sgqa}';  // EM expands this per group
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const hiddenInput = document.querySelector(HIDDEN_INPUT_SELECTOR);
+
+    if (!hiddenInput) {
+      console.warn('[LS] Hidden OATutor log input not found:', HIDDEN_INPUT_SELECTOR);
+      return;
+    }
+
+    window.addEventListener('message', function(e) {
+      const d = e && e.data;
+      if (e.origin !== CHILD_ORIGIN) return;
+      if (d.type !== 'OATUTOR_ANSWER_SUBMITTED') return;
+
+      try {
+        const prev = hiddenInput.value ? JSON.parse(hiddenInput.value) : [];
+        prev.push({
+          timestamp: d.timestamp || new Date().toISOString(),
+          problemId: d.problemId,
+          stepId: d.stepId,
+          stepTitle: d.stepTitle,
+          attempt: d.attemptRaw,
+          isCorrect: d.isCorrect
+        });
+        hiddenInput.value = JSON.stringify(prev);
+        console.log('[LS] Logged OATUTOR_ANSWER_SUBMITTED:', prev);
+      } catch (err) {
+        console.error('[LS] Failed to log OATUTOR_ANSWER_SUBMITTED:', err);
+      }
+    });
+  });
+})();
+</script>

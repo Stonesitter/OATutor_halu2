@@ -18,9 +18,12 @@ and controls the “Next” button based on lesson completion.
 2. **OATutor side:**
    - `parentMessaging.js` listens for initialization from the parent.
    - When a lesson is completed, `sendCompletionToParent()` sends a signal back.
+   - Each answer submission triggers `sendAnswerSubmissionToParent()`, allowing the host page to log per-attempt data.
+
 
 3. **Communication flow:**
    - OATutor iframe → window.parent.postMessage("OATUTOR_COMPLETE")
+   - OATutor iframe → window.parent.postMessage("OATUTOR_ANSWER_SUBMITTED")
    - LimeSurvey custom.js → shows Next button
 
 
