@@ -58,3 +58,4 @@ pnpm-lock.yaml
 .env
 .env
 src/config/firebaseConfig.js
+limesurvey/limesurvey_structure.lss
