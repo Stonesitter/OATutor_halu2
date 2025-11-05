@@ -284,7 +284,8 @@ class ProblemCard extends React.Component {
             stepTitle: stepTitle ?? null,
             stepIndex: this.index,
             courseName: courseName ?? null,
-            lesson: lessonMetadata,
+            oats_user_id: this.context?.firebase?.oats_user_id ?? null,
+	    lesson: lessonMetadata,
             seed,
             attemptRaw: inputVal,
             attemptEvaluated: parsed,
@@ -326,7 +327,7 @@ class ProblemCard extends React.Component {
 
     handleKey = (event) => {
         if (event.key === "Enter") {
-            this.submit();
+            this.();
         }
     };
 
