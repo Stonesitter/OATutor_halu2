@@ -327,7 +327,7 @@ class ProblemCard extends React.Component {
 
     handleKey = (event) => {
         if (event.key === "Enter") {
-            this.();
+            this.submit();
         }
     };
 
