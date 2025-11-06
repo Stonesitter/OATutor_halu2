@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a07f039inaccurate1_chem_aq_01a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "Let's start by writing the balanced chemical equation for the combustion of octane, \\( C_8H_{18} \\):\\n\\n\\[\\nC_8H_{18} + \\frac{25}{2} $$O_2$$ \\rightarrow $$8$$ $$CO_2$$ + $$9$$ $$H_2 O$$\\n\\]\\n\\nIn simpler whole numbers:\\n\\n\\[\\n$$2$$ C_8H_{18} + $$25$$ $$O_2$$ \\rightarrow $$16$$ $$CO_2$$ + $$18$$ $$H_2 O$$\\n\\]\\n\\nStep 1: Find moles of octane burned\\n\\nGiven mass of octane: $$702$$ g\\n\\nMolar mass of octane, \\( C_8H_{18} \\):\\n\\n\\[\\n(8 \\times $$12.01)$$ + (18 \\times $$1.008)$$ $$=$$ $$96.08$$ + $$18.144$$ $$=$$ $$114.22\\$$, $$\\frac{g}{mol}$$\\n\\]\\n\\nNumber of moles:\\n\\n\\[\\n\\text{moles of octane} $$=$$ \\frac{702\\, $$g}{114.22\\$$, $$\\frac{g}{mol}$$} \\approx $$6.145\\$$, \\text{mol}\\n\\]\\n\\nStep 2: Determine moles of \\( $$O_2$$ \\) needed\\n\\nFrom the balanced equation:\\n\\n\\[\\n2\\, \\text{mol octane} \\rightarrow 25\\, \\text{mol } $$O_2$$\\n\\]\\n\\nSo,\\n\\n\\[\\n\\text{moles of } $$O_2$$ $$=$$ \\frac{25}{2} \\times \\text{moles of octane} $$=$$ $$12.5$$ \\times $$6.145$$ \\approx $$76.81\\$$, \\text{mol}\\n\\]\\n\\nStep 3: Convert moles of \\( $$O_2$$ \\) to mass\\n\\nMolar mass of \\( $$O_2$$ \\):\\n\\n\\[\\n$$2$$ \\times $$16.00$$ $$=$$ $$32.00\\$$, $$\\frac{g}{mol}$$\\n\\]\\n\\nMass of oxygen gas:\\n\\n\\[\\n$$76.81\\$$, \\text{mol} \\times $$32.00\\$$, $$\\frac{g}{mol}$$ \\approx 2461\\, g\\n\\]\\n\\nFinal answer:\\n\\n**The mass of oxygen gas consumed** is approximately **2461 grams**.\\n\\n**Rounded to the nearest gram:** \\(\\boxed{2461\\, g}\\)\\n\\n---\\n\\n**Answer: \\(\\boxed{2461\\, \\text{grams}}\\)**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a07f039inaccurate1_chem_aq_05a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "First, determine the number of electrons in a neutral calcium (Ca) atom. Calcium has an atomic number of $$20$$, so it has $$20$$ electrons when it's neutral.\\n\\nSince the question is about a Ca\u00e5?\u2030\u0081\u00bc ion, it has lost $$2$$ electrons:\\n\\nNumber of electrons in Ca\u00e5?\u2030\u0081\u00bc $$=$$ $$20$$ - $$2$$ $$=$$ $$18$$\\n\\n**Answer: $$18$$ electrons**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]
