@@ -190,7 +190,8 @@
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
-                "giveStuFeedback": false
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
             }
         ]
     }
