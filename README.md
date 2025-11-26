@@ -22,6 +22,7 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - support new Tag (fixedProblemOrder) - make sure that it is the first Tag so that it reads every Problem ID correctly.
   - works with my custom OATutor-Tooling, which copies order of ProblemIDs in coursePlans.json
 - remove every clickable hyperlink element in the footer
+- added a logging routine in src/util/parentMessaging.js that sends a message for every user input. see limesurvey/OATutor_LimeSurvey_README.txt
 
 #### todo ####
 - reestablish fork to original repo
