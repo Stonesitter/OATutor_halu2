@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a2759dbaccurate_precalc_aq_01a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "To solve the expression \\(\\frac{|3x + 9|}{x + 3}\\), we first need to analyze the behavior of the absolute value \\(|3x + 9|\\).\\n\\n$$1$$. **When \\(x + $$3$$ > 0\\):** This implies \\(x > -3\\).\\n- In this case, the expression inside the absolute value \\(|3x + 9|\\) becomes simply \\(3x + 9\\), as it is positive or zero, so no change occurs.\\n- \\(\\frac{|3x + 9|}{x + 3} $$=$$ \\frac{3x + 9}{x + 3}\\).\\n- Notice \\(3x + 9\\) can be rewritten as \\(3(x + 3)\\).\\n- So, \\(\\frac{3(x + 3)}{x + 3} $$=$$ 3\\), assuming \\(x + $$3$$ \\neq 0\\) (and since \\(x > -3\\), it indeed won't be zero).\\n\\n$$2$$. **When \\(x + $$3$$ < 0\\):** This implies \\(x < -3\\).\\n- Here, the expression \\(|3x + 9| $$=$$ -(3x + 9)\\) because it becomes negative.\\n- Thus, \\(\\frac{|3x + 9|}{x + 3} $$=$$ \\frac{-(3x + 9)}{x + 3} $$=$$ \\frac{-3(x + 3)}{x + 3} $$=$$ -3\\).\\n\\nGiven this analysis, the behavior differs on either side of \\(x $$=$$ -3\\), with:\\n\\n- \\(3\\) for \\(x > -3\\)\\n- $$\\(-3\\)$$ for \\(x < -3\\)\\n\\nNote that at \\(x $$=$$ -3\\) the expression is not defined since it results in a division by zero.\\n\\nFrom the options provided, the correct solution resembles: **\"3 if $$x$$ > $$-3$$ and $$-3$$ if $$x$$ < -3.\"**",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ab28d4binaccurate3_precalc_aq_02a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "To rewrite the expression \\(\\frac{|3x+6|}{x+2}\\) in piecewise notation without absolute value bars, we first need to determine when the expression \\(3x + 6\\) is non-negative and when it is negative, since the absolute value affects its sign.\\n\\n$$1$$. Solve the inequality \\(3x + $$6$$ \\geq 0\\):\\n\\n\\[\\n$$3x$$ + $$6$$ \\geq $$0$$ \\\\\\n$$3x$$ \\geq $$-6$$ \\\\\\n$$x$$ \\geq $$-2$$\\n\\]\\n\\nFor \\(x \\geq -2\\), \\(3x + 6\\) is non-negative, so \\(|3x + 6| $$=$$ $$3x$$ + 6\\).\\n\\n$$2$$. For \\(x < -2\\), \\(3x + 6\\) is negative, so \\(|3x + 6| $$=$$ -(3x + 6)\\).\\n\\nThus, the piecewise expression for \\(\\frac{|3x+6|}{x+2}\\) is:\\n\\n- For \\(x \\geq -2\\), \\(|3x+6| $$=$$ 3x+6\\), and \\(\\frac{3x + 6}{x+2} $$=$$ 3\\).\\n\\n- For \\(x < -2\\), \\(|3x+6| $$=$$ $$-\\left(3x+6\\right)$$ $$=$$ $$-3x$$ - 6\\), and $$\\(\\frac{-3x$$ - 6}{x+2} $$=$$ -3\\).\\n\\nTherefore, the piecewise notation is:\\n\\n\\[\\n\\text{3 if } $$x$$ \\geq $$-2$$ \\text{ and } $$-3$$ \\text{ if } $$x$$ < $$-2$$\\n\\]\\n\\nSo, the correct choice is: \\(3\\) if \\(x \\geq -2\\) and $$\\(-3\\)$$ if \\(x < -2\\).",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

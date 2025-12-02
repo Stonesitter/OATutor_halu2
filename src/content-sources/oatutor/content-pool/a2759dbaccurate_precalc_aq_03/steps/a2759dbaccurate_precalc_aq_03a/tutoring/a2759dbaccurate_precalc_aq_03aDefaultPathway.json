@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a2759dbaccurate_precalc_aq_03a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "The given equation is:\\n\\n\\[\\n\\left|\\frac{-6}{3-x}\\right| $$=$$ $$6$$\\n\\]\\n\\nThis absolute value equation can be expressed as two separate equations:\\n\\n$$1$$. \\(\\frac{-6}{3-x} $$=$$ 6\\)\\n$$2$$. \\(\\frac{-6}{3-x} $$=$$ -6\\)\\n\\nWe will solve these equations separately.\\n\\nSolving the first equation:\\n\\n\\[\\n\\frac{-6}{3-x} $$=$$ $$6$$\\n\\]\\n\\nMultiplying both sides by $$\\(3-x\\)$$ to clear the fraction:\\n\\n\\[\\n$$-6$$ $$=$$ $$6(3-x)$$\\n\\]\\n\\nDistribute the 6:\\n\\n\\[\\n$$-6$$ $$=$$ $$18$$ - $$6x$$\\n\\]\\n\\nSubtract $$18$$ from both sides:\\n\\n\\[\\n$$-24$$ $$=$$ $$-6x$$\\n\\]\\n\\nDivide by $$\\(-6\\)$$:\\n\\n\\[\\n$$x$$ $$=$$ $$4$$\\n\\]\\n\\nSolving the second equation:\\n\\n\\[\\n\\frac{-6}{3-x} $$=$$ $$-6$$\\n\\]\\n\\nMultiplying both sides by $$\\(3-x\\)$$ again:\\n\\n\\[\\n$$-6$$ $$=$$ $$-6(3-x)$$\\n\\]\\n\\nDistribute the $$\\(-6\\)$$:\\n\\n\\[\\n$$-6$$ $$=$$ $$-18$$ + $$6x$$\\n\\]\\n\\nAdd $$18$$ to both sides:\\n\\n\\[\\n$$12$$ $$=$$ $$6x$$\\n\\]\\n\\nDivide by 6:\\n\\n\\[\\n$$x$$ $$=$$ $$2$$\\n\\]\\n\\nThus, the solution set is \\(x $$=$$ 4\\) or \\(x $$=$$ 2\\). Both choices \\(4\\) and \\(2\\) satisfy the original equation.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -86,6 +86,20 @@
                 "unlockFirstHint": true
             },
             {
+                "id": "7eyRDbd6-onOP-9hLBvI2Nn5",
+                "name": "Lesson Pre_Calc_Inaccurate1",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate1_precalc_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
+            },
+            {
                 "id": "5NetgvNN-53GQ-sLaV6nRJTk",
                 "name": "Lesson Chem_Inaccurate2",
                 "topics": "",
@@ -100,12 +114,40 @@
                 "unlockFirstHint": true
             },
             {
+                "id": "1hBcwsvB-gxim-1UxUPTQ7Br",
+                "name": "Lesson Pre_Calc_Inaccurate2",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate2_precalc_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
+            },
+            {
                 "id": "12YDUJxU-hp2a-ri1ifpzM7Y",
                 "name": "Lesson Chem_Inaccurate3",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
                     "inaccurate3_chem_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
+            },
+            {
+                "id": "49HKv20j-SigE-HwpN4oWUcf",
+                "name": "Lesson Pre_Calc_Inaccurate3",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate3_precalc_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -148,6 +190,20 @@
                 "allowRecycle": false,
                 "learningObjectives": {
                     "control_precalc_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
+            },
+            {
+                "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",
+                "name": "Lesson Pre_Calc_Accurate",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "accurate_precalc_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
