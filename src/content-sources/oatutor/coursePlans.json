@@ -5,23 +5,6 @@
         "courseLicense": 0.0,
         "lessons": [
             {
-                "id": "7BSivgkK-psrE-71qi2JQ38C",
-                "name": "Lesson firstChunk",
-                "topics": "",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "firstchunk": 0.85
-                },
-                "fixedProblemOrder": [
-                    "acebe80ProlificID",
-                    "acebe80Consent"
-                ],
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
-            },
-            {
                 "id": "7akunr8c-dlG0-Uhb5pLjHnV",
                 "name": "Lesson Chem_Pre",
                 "topics": "",
@@ -52,64 +35,29 @@
                 "giveStuFeedback": false
             },
             {
-                "id": "5HYat0WJ-nFpZ-HguLhD0krG",
-                "name": "Lesson secondChunk",
+                "id": "5mIYvj9w-6y3N-eMbTFaImmQ",
+                "name": "Lesson PreCalc_Pre",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "secondchunk": 0.85
+                    "precalc_kc_1_pre": 0.85,
+                    "precalc_kc_2_pre": 0.85,
+                    "precalc_kc_3_pre": 0.85
                 },
-                "fixedProblemOrder": [
-                    "aa0841eDemographic",
-                    "aa0841eFeedback-Literacy"
-                ],
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false
             },
             {
-                "id": "5HbhUs35-rhPC-XhadIgsSiJ",
-                "name": "Lesson thirdChunk",
-                "topics": "",
-                "allowRecycle": true,
-                "learningObjectives": {
-                    "thirdchunk": 0.85
-                },
-                "fixedProblemOrder": [
-                    "ac4d64dConfusion",
-                    "ac4d64dMental-Effort",
-                    "ac4d64dUsefulness"
-                ],
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
-            },
-            {
-                "id": "3Dw0iPPA-juKI-MBdg2FWJXe",
-                "name": "Lesson fourthChunk",
+                "id": "4TqiY66e-qDkI-qjjFoaozhJ",
+                "name": "Lesson PreCalc_Post",
                 "topics": "",
                 "allowRecycle": false,
                 "learningObjectives": {
-                    "fourthchunk": 0.85
-                },
-                "fixedProblemOrder": [
-                    "a6571b0Perceived-Accuracy",
-                    "a6571b0Feedback-Reflection"
-                ],
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
-            },
-            {
-                "id": "0OwP04gt-TywL-Q2wXwqOUJW",
-                "name": "Lesson Motivation[subject]",
-                "topics": "",
-                "allowRecycle": false,
-                "learningObjectives": {
-                    "questionaire": 0.85
+                    "precalc_kc_1_post": 0.85,
+                    "precalc_kc_2_post": 0.85,
+                    "precalc_kc_3_post": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,
@@ -119,7 +67,7 @@
         ]
     },
     {
-        "courseName": "Chem",
+        "courseName": "Conditions",
         "courseOER": 0.0,
         "courseLicense": 0.0,
         "lessons": [
@@ -186,6 +134,20 @@
                 "allowRecycle": false,
                 "learningObjectives": {
                     "accurate_chem_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
+            },
+            {
+                "id": "3AMDphnr-60XV-OFK6dojf98",
+                "name": "Lesson Pre_Calc_Control",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "control_precalc_aq": 0.85
                 },
                 "showStuMastery": false,
                 "doMasteryUpdate": false,

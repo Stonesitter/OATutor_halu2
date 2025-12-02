@@ -1,15 +1,17 @@
 {
     "id": "aad24a3inaccurate2_chem_aq_06a",
     "stepAnswer": [
-        "O2"
+        "Silicon"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "What is the limiting reagent?",
-    "stepBody": "In the combustion reaction given, 112g of O2 reacts with $$195$$ g ethene (C2H4): C2H4 (g) + O2 (g) -> CO2 + H2O",
+    "stepTitle": "Which is the limiting reactant when $$2.00$$ g of Si and $$1.50$$ g of N2 react?",
+    "stepBody": "",
     "answerType": "string",
     "variabilization": {},
     "choices": [
-        "C2H4",
-        "O2"
+        "Silicon",
+        "Nitrogen",
+        "Oxygen",
+        "Carbon"
     ]
 }

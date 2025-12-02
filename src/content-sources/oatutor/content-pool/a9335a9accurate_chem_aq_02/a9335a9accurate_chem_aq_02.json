@@ -1,10 +1,10 @@
 {
     "id": "a9335a9accurate_chem_aq_02",
-    "title": "Chemistry",
-    "body": "Answer the following.",
+    "title": "Learning Goals: Matter and Change",
+    "body": "",
     "variabilization": {},
     "oer": "https://openstax.org/",
     "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
     "lesson": "Chem_Accurate",
-    "courseName": "Chem"
+    "courseName": "Conditions"
 }

@@ -1,12 +1,17 @@
 {
     "id": "aa6b1dainaccurate3_chem_aq_02a",
     "stepAnswer": [
-        "$$102.5$$"
+        "Heterogeneous mixture"
     ],
-    "problemType": "TextBox",
-    "stepTitle": "What is the amount of CO2 formed in this reaction in grams?",
-    "stepBody": "In the combustion reaction given, 112g of O2 reacts with $$195$$ g ethene (C2H4): C2H4 (g) + O2 (g) -> CO2 + H2O",
-    "answerType": "arithmetic",
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task B).",
+    "stepBody": "",
+    "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$102.5$$"
+    "choices": [
+        "Compound",
+        "Heterogeneous mixture",
+        "Homogeneous mixture",
+        "Element"
+    ]
 }

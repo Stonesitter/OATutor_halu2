@@ -1,12 +1,15 @@
 {
     "id": "aad24a3inaccurate2_chem_aq_01a",
     "stepAnswer": [
-        "$$2458$$"
+        "Physical Change"
     ],
-    "problemType": "TextBox",
-    "stepTitle": "What mass of oxygen gas, O2, from the air is consumed in the combustion of $$702$$ g of octane, C8H18, one of the principal components of gasoline? Round to the nearest gram.",
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task iv).",
     "stepBody": "",
-    "answerType": "arithmetic",
+    "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$2458$$"
+    "choices": [
+        "Physical Change",
+        "Chemical Change"
+    ]
 }

@@ -1,10 +1,4 @@
 {
-    "firstchunk": {
-        "probMastery": 0.1,
-        "probTransit": 0.1,
-        "probSlip": 0.1,
-        "probGuess": 0.1
-    },
     "chem_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
@@ -41,25 +35,37 @@
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "secondchunk": {
+    "precalc_kc_1_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "thirdchunk": {
+    "precalc_kc_2_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "fourthchunk": {
+    "precalc_kc_3_pre": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
         "probGuess": 0.1
     },
-    "questionaire": {
+    "precalc_kc_1_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "precalc_kc_2_post": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "precalc_kc_3_post": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
@@ -90,6 +96,12 @@
         "probGuess": 0.1
     },
     "inaccurate3_chem_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "control_precalc_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,
