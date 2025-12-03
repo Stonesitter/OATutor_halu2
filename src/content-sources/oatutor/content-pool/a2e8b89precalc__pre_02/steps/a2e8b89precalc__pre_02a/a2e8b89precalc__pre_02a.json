@@ -1,17 +1,16 @@
 {
     "id": "a2e8b89precalc__pre_02a",
     "stepAnswer": [
-        "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$"
+        "$$2x^6+2x$$ if $$x \\geq 0$$ and $$-2x^6-2x$$ if $$x<0$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "$$\\frac{|2x-2|}{x-1}$$",
+    "stepTitle": "$$\\left(2x^5+2\\right) |x|$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$",
+    "answerLatex": "$$2x^6+2x$$ if $$x \\geq 0$$ and $$-2x^6-2x$$ if $$x<0$$",
     "choices": [
-        "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$",
-        "$$2$$ if $$x \\geq 1$$ and $$-2$$ if $$x<1$$",
-        "$$-2$$ if $$x>1$$ and $$2$$ if $$x<1$$"
+        "$$2x^6+2x$$ if $$x \\geq 0$$ and $$-2x^6-2x$$ if $$x<0$$",
+        "$$-2x^6+2x$$ if $$x \\geq 0$$ and $$2x^6-2x$$ if $$x<0$$"
     ]
 }
