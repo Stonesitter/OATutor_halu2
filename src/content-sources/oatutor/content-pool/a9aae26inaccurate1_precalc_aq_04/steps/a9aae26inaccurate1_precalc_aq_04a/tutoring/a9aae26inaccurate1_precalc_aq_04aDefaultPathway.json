@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a9aae26inaccurate1_precalc_aq_04a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "To understand how the expression \\(\\frac{\\lvert x - 1 \\rvert}{x - 1}\\) behaves, let's consider the different scenarios based on the value of \\(x\\):\n\n1. \\(\\textbf{For}\\) \\(x > 1\\):\n   - \\(x - 1\\) is positive, so \\(\\lvert x - 1 \\rvert = x - 1\\).\n   - This makes the expression \\(\\frac{\\lvert x - 1 \\rvert}{x - 1} = \\frac{x - 1}{x - 1} = 1\\).\n\n2. \\(\\textbf{For}\\) \\(x < 1\\):\n   - \\(x - 1\\) is negative, so \\(\\lvert x - 1 \\rvert = -(x - 1) = 1 - x\\).\n   - This makes the expression \\(\\frac{\\lvert x - 1 \\rvert}{x - 1} = \\frac{1 - x}{x - 1} = \\frac{-(x - 1)}{x - 1} = -1\\).\n\n3. \\(\\textbf{At}\\) \\(x = 1\\):\n   - The expression becomes \\(\\frac{\\lvert 1 - 1 \\rvert}{1 - 1} = \\frac{0}{0}\\), which is undefined.\n\nGiven these observations, the behavior of the expression is 1 if \\(x > 1\\) and -1 if \\(x < 1\\).\n\nTherefore, the correct choice is: \"1 if \\(x > 1\\) and -1 if \\(x < 1\\)\".",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

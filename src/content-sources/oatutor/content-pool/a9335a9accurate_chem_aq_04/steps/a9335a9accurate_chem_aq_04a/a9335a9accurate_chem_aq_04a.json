@@ -1,0 +1,17 @@
+{
+    "id": "a9335a9accurate_chem_aq_04a",
+    "stepAnswer": [
+        "Compound"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task A).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "Compound",
+        "Heterogeneous mixture",
+        "Homogeneous mixture",
+        "Element"
+    ]
+}

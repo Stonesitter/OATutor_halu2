@@ -1,0 +1,17 @@
+{
+    "id": "afb90d0control_chem_aq_03a",
+    "stepAnswer": [
+        "Homogeneous mixture"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task C).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "Compound",
+        "Heterogeneous mixture",
+        "Homogeneous mixture",
+        "Element"
+    ]
+}

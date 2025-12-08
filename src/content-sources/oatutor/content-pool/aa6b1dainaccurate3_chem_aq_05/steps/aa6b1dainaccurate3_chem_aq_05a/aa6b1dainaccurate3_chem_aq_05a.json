@@ -1,0 +1,15 @@
+{
+    "id": "aa6b1dainaccurate3_chem_aq_05a",
+    "stepAnswer": [
+        "Chemical Change"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task ii).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "Physical Change",
+        "Chemical Change"
+    ]
+}
