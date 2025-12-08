@@ -1,0 +1,17 @@
+{
+    "id": "a3229e2inaccurate3_chem_aq_02a",
+    "stepAnswer": [
+        "Heterogeneous mixture"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task B).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "Compound",
+        "Heterogeneous mixture",
+        "Homogeneous mixture",
+        "Element"
+    ]
+}

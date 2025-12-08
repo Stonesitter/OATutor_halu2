@@ -1,0 +1,15 @@
+{
+    "id": "a3229e2inaccurate3_chem_aq_01a",
+    "stepAnswer": [
+        "Physical Change"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task iv).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "Physical Change",
+        "Chemical Change"
+    ]
+}
