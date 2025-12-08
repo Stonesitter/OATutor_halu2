@@ -63,6 +63,20 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false
+            },
+            {
+                "id": "7eyRDbd6-onOP-9hLBvI2Nn5",
+                "name": "Lesson test",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate1_precalc_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true
             }
         ]
     },

@@ -1,0 +1,114 @@
+diff --git a/src/platform-logic/renderText.js b/src/platform-logic/renderText.js
+index 8c09aad35ab5b0e24cd94e20fcd1ae13cf82fa1e..e23c836726e4878f3c72483700c516c6d33b17d5 100644
+--- a/src/platform-logic/renderText.js
++++ b/src/platform-logic/renderText.js
+@@ -53,51 +53,51 @@ function renderText(text, problemID, variabilization, context) {
+                     >
+                         <InlineMath
+                             math={part}
+                             renderError={(error) => {
+                                 throw error;
+                             }}
+                         />
+                     </ErrorBoundary>
+                 );
+             }
+ 
+             const lineSubParts = part.split("##");
+             return lineSubParts.map((subPart, kdx) => {
+                 const isMedia = kdx % 2 !== 0;
+                 if (isMedia) {
+                     return (
+                         <center key={Math.random() * 2 ** 16}>
+                             <RenderMedia
+                                 url={subPart}
+                                 problemID={problemID}
+                                 contentSource={CONTENT_SOURCE}
+                             />
+                         </center>
+                     );
+                 }
+-                return parseForFillInQuestions(subPart);
++                return parseForBoldAndFillIn(subPart);
+             });
+         });
+         // add a spacer if it isn't the last line
+         if (idx !== lines.length - 1) {
+             lineParts.push(
+                 <Spacer height={2} width={2} key={Math.random() * 2 ** 16} />
+             );
+         }
+         return lineParts;
+     });
+ }
+ 
+ const META_REGEX = /%\{([^{}%"]+)}/g;
+ const mapper = {
+     oats_user_id: (context) => context.userID,
+ };
+ /**
+  * Takes in a string and iff there is a part that matches %{variable}, replace it with some context metadata
+  * @param {string} str
+  * @param context
+  * @return {string}
+  */
+ function parseForMetaVariables(str, context) {
+     return str.replaceAll(META_REGEX, (ogMatch, group1) => {
+         if (group1 in mapper) {
+@@ -129,26 +129,56 @@ function parseForFillInQuestions(str) {
+                         paddingRight: "2.5ch",
+                         position: "relative",
+                         background: "rgb(242,243,244)",
+                         borderRadius: "0.6ch",
+                     }}
+                 >
+                     <div
+                         style={{
+                             position: "absolute",
+                             bottom: 3.5,
+                             left: 4,
+                             right: 4,
+                             height: 1.5,
+                             borderRadius: "0.6ch",
+                             background: "rgb(75,76,77)",
+                         }}
+                     />
+                 </span>
+             );
+         }
+         result.push(part);
+     });
+     return result;
+ }
+ 
++/**
++ * Adds support for bold text using double underscores (e.g. __bold__).
++ * The existing caret substitution for "**" is preserved, so we avoid that token here.
++ * Bold parsing happens alongside fill-in-the-blank handling for plain text segments.
++ *
++ * @param {(string)} str
++ * @return {(string | JSX.Element)[]}
++ */
++function parseForBoldAndFillIn(str) {
++    const boldParts = str.split("__");
++    let result = [];
++    boldParts.forEach((part, idx) => {
++        const parsed = parseForFillInQuestions(part);
++        if (idx % 2 !== 0) {
++            result.push(
++                <strong key={Math.random() * 2 ** 16}>
++                    {parsed}
++                </strong>
++            );
++            return;
++        }
++        if (Array.isArray(parsed)) {
++            result.push(...parsed);
++        } else {
++            result.push(parsed);
++        }
++    });
++    return result;
++}
++
+ export { renderText, chooseVariables };

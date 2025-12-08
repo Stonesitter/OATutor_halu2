@@ -1,0 +1,12 @@
+[
+    {
+        "id": "aa94a8finaccurate1_precalc_aq_06a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "",
+        "text": "To solve the inequality \\(|(4x+2)/3| \\leq 2\\), we want to determine the values of \\(x\\) for which the expression \\((4x+2)/3\\) falls within the range of -2 to 2.\n\nWe break down the absolute value inequality into two separate inequalities:\n\n1. \\(\\frac{4x+2}{3} \\leq 2\\)\n2. \\(\\frac{4x+2}{3} \\geq -2\\)\n\n\\(\\textbf{1. Solving \\(\\frac{4x+2}{3} \\leq 2\\):}\\)\n\nMultiply both sides by 3 to remove the denominator:\n\n\\[ 4x + 2 \\leq 6 \\]\n\nSubtract 2 from both sides:\n\n\\[ 4x \\leq 4 \\]\n\nDivide by 4:\n\n\\[ x \\leq 1 \\]\n\n\\(\\textbf{2. Solving \\(\\frac{4x+2}{3} \\geq -2\\):}\\)\n\nMultiply both sides by 3: \n\n\\[ 4x + 2 \\geq -6 \\]\n\nSubtract 2 from both sides:\n\n\\[ 4x \\geq -8 \\]\n\nDivide by 4:\n\n\\[ x \\geq -2 \\]\n\nThe solution to the original inequality is the intersection of these two conditions: \n\n\\[ -2 \\leq x \\leq 1 \\]\n\nIn interval notation, the solution is \\([-2, 1]\\).\n\nTherefore, the correct choice is \\([-2, 1]\\).",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]
