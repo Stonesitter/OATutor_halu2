@@ -24,6 +24,7 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - remove every clickable hyperlink element in the footer
 - added a logging routine in src/util/parentMessaging.js that sends a message for every user input. see <https://github.com/Stonesitter/OATutor_halu2/blob/main/limesurvey/OATutor_LimeSurvey_README.txt>
 - added support for MathBlocks to allow more flexible formatting. Needs bypass in the OATutor-Tooling. see <https://github.com/Stonesitter/OATutor-Tooling/tree/feat/format-bypass>
+- added support for `allowRetry` tag in coursePlans.json. When set to `true`, students can re-attempt a question after submitting an incorrect answer. Default is `false` (no retry). See [`docs/allowRetry-tag-spec.md`](docs/allowRetry-tag-spec.md)
 #### todo ####
 - reestablish fork to original repo
 - remove lessons header 
