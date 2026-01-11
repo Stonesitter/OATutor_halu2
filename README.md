@@ -25,6 +25,7 @@ The starting point was https://github.com/CAHLR/OATutor-Inaccurate-Accurate – 
 - added a logging routine in src/util/parentMessaging.js that sends a message for every user input. see <https://github.com/Stonesitter/OATutor_halu2/blob/main/limesurvey/OATutor_LimeSurvey_README.txt>
 - added support for MathBlocks to allow more flexible formatting. Needs bypass in the OATutor-Tooling. see <https://github.com/Stonesitter/OATutor-Tooling/tree/feat/format-bypass>
 - added support for `allowRetry` tag in coursePlans.json. When set to `true`, students can re-attempt a question after submitting an incorrect answer. Default is `false` (no retry). See [`docs/allowRetry-tag-spec.md`](docs/allowRetry-tag-spec.md)
+- added support for `showReflectionQuestion` tag in coursePlans.json. When set to `true`, a reflection interstitial screen is shown after clicking "Next Problem" but before loading the next problem. Optionally use `reflectionQuestionText` to customize the question text. Reflection responses are sent to LimeSurvey via `OATUTOR_REFLECTION_SUBMITTED` message. Also sends `OATUTOR_NEXT_PROBLEM` timing signal for measuring hint reading time.
 #### todo ####
 - reestablish fork to original repo
 - remove lessons header 

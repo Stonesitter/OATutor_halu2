@@ -97,6 +97,14 @@ const DYNAMIC_HINT_TEMPLATE =
     "<{problem_title}.> <{problem_subtitle}.> <{question_title}.> <{question_subtitle}.> <Student's answer is: {student_answer}.> <The correct answer is: {correct_answer}.> Please give a hint for this.";
 
 const MASTERY_THRESHOLD = 0.95;
+
+/**
+ * Default text for the reflection question shown after acquisition problems.
+ * Can be overridden per lesson via reflectionQuestionText in coursePlans.json.
+ * @type {string}
+ */
+const DEFAULT_REFLECTION_QUESTION_TEXT =
+    "Did you notice anything suspicious or unusual about the information provided?";
 // const coursePlans = courses.sort((a, b) => a.courseName.localeCompare(b.courseName));
 const coursePlans = courses;
 const _coursePlansNoEditor = coursePlans.filter(({ editor }) => !!!editor);
@@ -156,4 +164,5 @@ export {
     DO_FOCUS_TRACKING,
     findLessonById,
     SHOW_NOT_CANVAS_WARNING,
+    DEFAULT_REFLECTION_QUESTION_TEXT,
 };

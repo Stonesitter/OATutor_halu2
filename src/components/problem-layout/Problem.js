@@ -21,11 +21,16 @@ import withTranslation from "../../util/withTranslation.js"
 
 import {
     CANVAS_WARNING_STORAGE_KEY,
+    DEFAULT_REFLECTION_QUESTION_TEXT,
     MIDDLEWARE_URL,
     SHOW_NOT_CANVAS_WARNING,
     SITE_NAME,
     ThemeContext,
 } from "../../config/config.js";
+import {
+    sendNextProblemToParent,
+    sendReflectionToParent,
+} from "../../util/parentMessaging.js";
 import { toast } from "react-toastify";
 import to from "await-to-js";
 import ToastID from "../../util/toastIds";
@@ -71,6 +76,10 @@ class Problem extends React.Component {
             ? this.props.lesson?.prompt_template
             : "";
 
+        // Reflection interstitial configuration
+        this.showReflectionQuestion = this.props.lesson?.showReflectionQuestion === true;
+        this.reflectionQuestionText = this.props.lesson?.reflectionQuestionText || DEFAULT_REFLECTION_QUESTION_TEXT;
+
         this.state = {
             stepStates: {},
             firstAttempts: {},
@@ -78,6 +87,10 @@ class Problem extends React.Component {
             showFeedback: false,
             feedback: "",
             feedbackSubmitted: false,
+            // Reflection interstitial state
+            showingReflectionInterstitial: false,
+            reflectionResponse: "",
+            currentProblemIdForReflection: null,
         };
     }
 
@@ -331,6 +344,26 @@ class Problem extends React.Component {
     };
 
     clickNextProblem = async () => {
+        const { problem, lesson } = this.props;
+
+        // Send timing signal FIRST, before any state changes
+        sendNextProblemToParent({
+            problemId: problem.id,
+            lessonId: lesson.id,
+            oats_user_id: this.context?.userID || null,
+        });
+
+        // If reflection question enabled, show interstitial instead of advancing
+        if (this.showReflectionQuestion && !this.state.showingReflectionInterstitial) {
+            this.setState({
+                showingReflectionInterstitial: true,
+                currentProblemIdForReflection: problem.id,
+            });
+            scroll.scrollToTop({ duration: 500, smooth: true });
+            return;
+        }
+
+        // Normal flow: advance to next problem
         scroll.scrollToTop({ duration: 900, smooth: true });
 
         await this.props.problemComplete(this.context);
@@ -341,6 +374,9 @@ class Problem extends React.Component {
             problemFinished: false,
             feedback: "",
             feedbackSubmitted: false,
+            showingReflectionInterstitial: false,
+            reflectionResponse: "",
+            currentProblemIdForReflection: null,
         });
     };
 
@@ -358,6 +394,34 @@ class Problem extends React.Component {
             problem.lesson
         );
         this.setState({ feedback: "", feedbackSubmitted: true });
+    };
+
+    submitReflection = async () => {
+        const { lesson } = this.props;
+        const problemId = this.state.currentProblemIdForReflection;
+
+        // Send reflection to parent with identifier
+        sendReflectionToParent({
+            reflectionId: `reflection_${problemId}`,
+            problemId: problemId,
+            lessonId: lesson.id,
+            response: this.state.reflectionResponse,
+            oats_user_id: this.context?.userID || null,
+        });
+
+        // Now advance to next problem
+        scroll.scrollToTop({ duration: 900, smooth: true });
+        await this.props.problemComplete(this.context);
+        this.setState({
+            stepStates: {},
+            firstAttempts: {},
+            problemFinished: false,
+            feedback: "",
+            feedbackSubmitted: false,
+            showingReflectionInterstitial: false,
+            reflectionResponse: "",
+            currentProblemIdForReflection: null,
+        });
     };
 
     toggleFeedback = () => {
@@ -421,6 +485,57 @@ class Problem extends React.Component {
             this.getOerLicense();
         if (problem == null) {
             return <div></div>;
+        }
+
+        // Render reflection interstitial screen
+        if (this.state.showingReflectionInterstitial) {
+            return (
+                <div className={classes.prompt}>
+                    <Card className={classes.titleCard}>
+                        <CardContent>
+                            <h2 className={classes.problemHeader}>
+                                Reflection
+                                <hr />
+                            </h2>
+                            <p style={{ fontSize: "1.1rem", marginBottom: 16 }}>
+                                {this.reflectionQuestionText}
+                            </p>
+                            <TextField
+                                multiline
+                                fullWidth
+                                minRows={4}
+                                maxRows={10}
+                                value={this.state.reflectionResponse}
+                                onChange={(e) =>
+                                    this.setState({
+                                        reflectionResponse: e.target.value,
+                                    })
+                                }
+                                variant="outlined"
+                                placeholder="Enter your response..."
+                            />
+                            <Spacer height={16} />
+                            <Grid container spacing={0}>
+                                <Grid item xs={3} sm={3} md={5} key={1} />
+                                <Grid item xs={6} sm={6} md={2} key={2}>
+                                    <Button
+                                        className={classes.button}
+                                        style={{ width: "100%" }}
+                                        size="small"
+                                        onClick={this.submitReflection}
+                                        disabled={
+                                            this.state.reflectionResponse.trim() === ""
+                                        }
+                                    >
+                                        Continue
+                                    </Button>
+                                </Grid>
+                                <Grid item xs={3} sm={3} md={5} key={3} />
+                            </Grid>
+                        </CardContent>
+                    </Card>
+                </div>
+            );
         }
 
         return (

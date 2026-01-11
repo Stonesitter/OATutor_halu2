@@ -68,6 +68,24 @@ export function sendAnswerSubmissionToParent(extra = {}) {
     postToParent('OATUTOR_ANSWER_SUBMITTED', payload, 'answer submission');
 }
 
+// 5) Send "Next Problem" click signal to parent for timing measurement
+export function sendNextProblemToParent(extra = {}) {
+    const payload = { ...extra };
+    if (!('timestamp' in payload)) {
+        payload.timestamp = new Date().toISOString();
+    }
+    postToParent('OATUTOR_NEXT_PROBLEM', payload, 'next problem click');
+}
+
+// 6) Send reflection submission to parent for logging
+export function sendReflectionToParent(extra = {}) {
+    const payload = { ...extra };
+    if (!('timestamp' in payload)) {
+        payload.timestamp = new Date().toISOString();
+    }
+    postToParent('OATUTOR_REFLECTION_SUBMITTED', payload, 'reflection submission');
+}
+
 // Optional: helper for testing in the iframe console
 window.__oatuPingParent = function () {
   sendCompletionToParent({ status: 'test-ping' });

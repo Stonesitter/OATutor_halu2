@@ -84,7 +84,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "7eyRDbd6-onOP-9hLBvI2Nn5",
@@ -99,7 +100,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "5NetgvNN-53GQ-sLaV6nRJTk",
@@ -114,7 +116,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "1hBcwsvB-gxim-1UxUPTQ7Br",
@@ -129,7 +132,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "12YDUJxU-hp2a-ri1ifpzM7Y",
@@ -144,7 +148,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "49HKv20j-SigE-HwpN4oWUcf",
@@ -159,7 +164,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "6WVSOkPu-cqck-7fhhCW3iTV",
@@ -174,7 +180,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "60b8namB-zX2x-KsyguNNya3",
@@ -189,7 +196,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "3AMDphnr-60XV-OFK6dojf98",
@@ -204,7 +212,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             },
             {
                 "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",
@@ -219,7 +228,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showFeedbackQuestion": true
             }
         ]
     }
