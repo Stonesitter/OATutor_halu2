@@ -59,3 +59,5 @@ pnpm-lock.yaml
 .env
 src/config/firebaseConfig.js
 limesurvey/limesurvey_structure.lss
+docs/experiment-design.md
+docs/claude_plan.org

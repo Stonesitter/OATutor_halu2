@@ -83,7 +83,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "7eyRDbd6-onOP-9hLBvI2Nn5",
@@ -97,7 +98,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "5NetgvNN-53GQ-sLaV6nRJTk",
@@ -111,7 +113,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "1hBcwsvB-gxim-1UxUPTQ7Br",
@@ -125,7 +128,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "12YDUJxU-hp2a-ri1ifpzM7Y",
@@ -139,7 +143,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "49HKv20j-SigE-HwpN4oWUcf",
@@ -153,7 +158,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "6WVSOkPu-cqck-7fhhCW3iTV",
@@ -167,7 +173,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "60b8namB-zX2x-KsyguNNya3",
@@ -181,7 +188,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "3AMDphnr-60XV-OFK6dojf98",
@@ -195,7 +203,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             },
             {
                 "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",
@@ -209,7 +218,8 @@
                 "doMasteryUpdate": false,
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
-                "unlockFirstHint": true
+                "unlockFirstHint": true,
+                "allowRetry": true
             }
         ]
     }
