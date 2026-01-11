@@ -85,7 +85,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "7eyRDbd6-onOP-9hLBvI2Nn5",
@@ -101,7 +101,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "5NetgvNN-53GQ-sLaV6nRJTk",
@@ -117,7 +117,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "1hBcwsvB-gxim-1UxUPTQ7Br",
@@ -133,7 +133,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "12YDUJxU-hp2a-ri1ifpzM7Y",
@@ -149,7 +149,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "49HKv20j-SigE-HwpN4oWUcf",
@@ -165,7 +165,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "6WVSOkPu-cqck-7fhhCW3iTV",
@@ -180,8 +180,7 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true,
-                "showFeedbackQuestion": true
+                "allowRetry": true
             },
             {
                 "id": "60b8namB-zX2x-KsyguNNya3",
@@ -197,7 +196,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             },
             {
                 "id": "3AMDphnr-60XV-OFK6dojf98",
@@ -212,8 +211,7 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true,
-                "showFeedbackQuestion": true
+                "allowRetry": true
             },
             {
                 "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",
@@ -229,7 +227,7 @@
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
                 "allowRetry": true,
-                "showFeedbackQuestion": true
+                "showReflectionQuestion": true
             }
         ]
     }
