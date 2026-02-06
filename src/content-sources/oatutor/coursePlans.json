@@ -180,7 +180,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showReflectionQuestion": true
             },
             {
                 "id": "60b8namB-zX2x-KsyguNNya3",
@@ -211,7 +212,8 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true
+                "allowRetry": true,
+                "showReflectionQuestion": true
             },
             {
                 "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",
