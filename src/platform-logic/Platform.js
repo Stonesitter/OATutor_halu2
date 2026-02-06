@@ -20,7 +20,7 @@ import ToastID from "../util/toastIds";
 import BrandLogoNav from "@components/BrandLogoNav";
 import { cleanArray } from "../util/cleanObject";
 import ErrorBoundary from "@components/ErrorBoundary";
-import { sendCompletionToParent } from "../util/parentMessaging";
+import { sendCompletionToParent, sendProblemOpenedToParent } from "../util/parentMessaging";
 import { CONTENT_SOURCE } from "@common/global-config";
 import withTranslation from '../util/withTranslation';
 
@@ -361,6 +361,11 @@ class Platform extends React.Component {
                                 chosenProblem.lesson,
                                 this.lesson.learningObjectives
                             );
+                            sendProblemOpenedToParent({
+                                problemId: chosenProblem.id,
+                                courseName: chosenProblem.courseName,
+                                lessonId: this.lesson.id,
+                            });
                         }
                     );
                     return chosenProblem;
@@ -469,6 +474,11 @@ class Platform extends React.Component {
                 chosenProblem.lesson,
                 this.lesson.learningObjectives
             );
+            sendProblemOpenedToParent({
+                problemId: chosenProblem.id,
+                courseName: chosenProblem.courseName,
+                lessonId: this.lesson.id,
+            });
             return chosenProblem;
         } else {
             console.debug("still no chosen problem..? must be an error");

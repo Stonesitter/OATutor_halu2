@@ -68,7 +68,16 @@ export function sendAnswerSubmissionToParent(extra = {}) {
     postToParent('OATUTOR_ANSWER_SUBMITTED', payload, 'answer submission');
 }
 
-// 5) Send "Next Problem" click signal to parent for timing measurement
+// 5) Send "Problem Opened" signal to parent for timing measurement
+export function sendProblemOpenedToParent(extra = {}) {
+    const payload = { ...extra };
+    if (!('timestamp' in payload)) {
+        payload.timestamp = new Date().toISOString();
+    }
+    postToParent('OATUTOR_PROBLEM_OPENED', payload, 'problem opened');
+}
+
+// 6) Send "Next Problem" click signal to parent for timing measurement
 export function sendNextProblemToParent(extra = {}) {
     const payload = { ...extra };
     if (!('timestamp' in payload)) {
@@ -77,7 +86,7 @@ export function sendNextProblemToParent(extra = {}) {
     postToParent('OATUTOR_NEXT_PROBLEM', payload, 'next problem click');
 }
 
-// 6) Send reflection submission to parent for logging
+// 7) Send reflection submission to parent for logging
 export function sendReflectionToParent(extra = {}) {
     const payload = { ...extra };
     if (!('timestamp' in payload)) {
