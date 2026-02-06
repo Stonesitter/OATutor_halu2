@@ -6,6 +6,9 @@ import CardContent from "@material-ui/core/CardContent";
 import ProblemCardWrapper from "./ProblemCardWrapper";
 import Grid from "@material-ui/core/Grid";
 import { animateScroll as scroll, Element, scroller } from "react-scroll";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import update from "../../models/BKT/BKT-brain.js";
 import {
     chooseVariables,
@@ -493,27 +496,18 @@ class Problem extends React.Component {
                 <div className={classes.prompt}>
                     <Card className={classes.titleCard}>
                         <CardContent>
-                            <h2 className={classes.problemHeader}>
-                                Reflection
-                                <hr />
-                            </h2>
                             <p style={{ fontSize: "1.1rem", marginBottom: 16 }}>
                                 {this.reflectionQuestionText}
                             </p>
-                            <TextField
-                                multiline
-                                fullWidth
-                                minRows={4}
-                                maxRows={10}
+                            <RadioGroup
                                 value={this.state.reflectionResponse}
-                                onChange={(e) =>
-                                    this.setState({
-                                        reflectionResponse: e.target.value,
-                                    })
-                                }
-                                variant="outlined"
-                                placeholder="Enter your response..."
-                            />
+                                onChange={(e) => this.setState({ reflectionResponse: e.target.value })}
+                                row
+                                style={{ justifyContent: "center" }}
+                            >
+                                <FormControlLabel value="Yes" control={<Radio />} label="Yes" />
+                                <FormControlLabel value="No" control={<Radio />} label="No" />
+                            </RadioGroup>
                             <Spacer height={16} />
                             <Grid container spacing={0}>
                                 <Grid item xs={3} sm={3} md={5} key={1} />
@@ -523,9 +517,7 @@ class Problem extends React.Component {
                                         style={{ width: "100%" }}
                                         size="small"
                                         onClick={this.submitReflection}
-                                        disabled={
-                                            this.state.reflectionResponse.trim() === ""
-                                        }
+                                        disabled={!this.state.reflectionResponse}
                                     >
                                         Continue
                                     </Button>
