@@ -168,6 +168,38 @@
                 "showReflectionQuestion": true
             },
             {
+                "id": "1JzbRLEd-yD8E-nqHKnCOhQg",
+                "name": "Lesson Chem_Inaccurate4",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate4_chem_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true,
+                "allowRetry": true,
+                "showReflectionQuestion": true
+            },
+            {
+                "id": "49HKv20j-SigE-HwpN4oWUcf",
+                "name": "Lesson Pre_Calc_Inaccurate4",
+                "topics": "",
+                "allowRecycle": false,
+                "learningObjectives": {
+                    "inaccurate4_precalc_aq": 0.85
+                },
+                "showStuMastery": false,
+                "doMasteryUpdate": false,
+                "keepMCOrder": true,
+                "giveStuFeedback": false,
+                "unlockFirstHint": true,
+                "allowRetry": true,
+                "showReflectionQuestion": true
+            },
+            {
                 "id": "6WVSOkPu-cqck-7fhhCW3iTV",
                 "name": "Lesson Chem_Control",
                 "topics": "",
@@ -180,8 +212,7 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true,
-                "showReflectionQuestion": true
+                "allowRetry": true
             },
             {
                 "id": "60b8namB-zX2x-KsyguNNya3",
@@ -212,8 +243,7 @@
                 "keepMCOrder": true,
                 "giveStuFeedback": false,
                 "unlockFirstHint": true,
-                "allowRetry": true,
-                "showReflectionQuestion": true
+                "allowRetry": true
             },
             {
                 "id": "1ygdM9Ob-BwXW-tCY9l4fnr4",

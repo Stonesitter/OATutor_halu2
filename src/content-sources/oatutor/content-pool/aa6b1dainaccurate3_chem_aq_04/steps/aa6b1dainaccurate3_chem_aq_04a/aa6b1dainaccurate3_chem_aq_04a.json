@@ -1,17 +1,18 @@
 {
     "id": "aa6b1dainaccurate3_chem_aq_04a",
     "stepAnswer": [
-        "Compound"
+        "diatomic element"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "This is about task A).",
+    "stepTitle": "This is about task iii).",
     "stepBody": "##figure1.gif## ",
     "answerType": "string",
     "variabilization": {},
     "choices": [
-        "Compound",
-        "Heterogeneous mixture",
-        "Homogeneous mixture",
-        "Element"
+        "diatomic element",
+        "element",
+        "diatomic element",
+        "compound",
+        "a mixture of two compounds"
     ]
 }

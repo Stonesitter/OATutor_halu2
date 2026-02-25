@@ -101,6 +101,12 @@
         "probSlip": 0.1,
         "probGuess": 0.1
     },
+    "inaccurate4_chem_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
     "control_precalc_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
@@ -126,6 +132,12 @@
         "probGuess": 0.1
     },
     "inaccurate3_precalc_aq": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "inaccurate4_precalc_aq": {
         "probMastery": 0.1,
         "probTransit": 0.1,
         "probSlip": 0.1,

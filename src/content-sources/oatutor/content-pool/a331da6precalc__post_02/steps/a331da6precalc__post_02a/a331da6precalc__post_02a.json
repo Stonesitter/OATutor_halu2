@@ -5,7 +5,7 @@
     ],
     "problemType": "MultipleChoice",
     "stepTitle": "(2x**5+2)*abs(x)",
-    "stepBody": "",
+    "stepBody": "Use the piecewise definition of the absolute value to rewrite the following expressions in piecewise notation, without absolute value bars.",
     "answerType": "string",
     "variabilization": {},
     "answerLatex": "2*x**6+2*x if $$x \\geq 0$$ and -2*x**6-2*x if x<0",

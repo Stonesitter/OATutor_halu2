@@ -10,6 +10,10 @@
 
 # production
 /build
+build/
+dist/
+static/
+*.map
 
 # misc
 .DS_Store

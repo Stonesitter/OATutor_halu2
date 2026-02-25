@@ -1,0 +1,18 @@
+{
+    "id": "ab5d21dinaccurate4_chem_aq_04a",
+    "stepAnswer": [
+        "diatomic element"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "This is about task iii).",
+    "stepBody": "##figure1.gif## ",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "diatomic element",
+        "element",
+        "diatomic element",
+        "compound",
+        "a mixture of two compounds"
+    ]
+}
