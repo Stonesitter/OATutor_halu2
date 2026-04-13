@@ -1,17 +1,18 @@
 {
     "id": "ab28d4binaccurate3_precalc_aq_02a",
     "stepAnswer": [
-        "$$3$$ if x>-2 and $$-3$$ if x<-2"
+        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "abs(3*x+6)/(x+2)",
+    "stepTitle": "$$|(3*x+6)/(x+2)|$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$3$$ if x>-2 and $$-3$$ if x<-2",
+    "answerLatex": "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$",
     "choices": [
-        "$$3$$ if x>-2 and $$-3$$ if x<-2",
-        "$$3$$ if $$x \\geq -2$$ and $$-3$$ if x<-2",
-        "$$-3$$ if x>-2 and $$3$$ if x<-2"
+        "$$\\begin{cases}-3 & \\text{ if } x>-2\\\\3 & \\text{ if } x <-2\\end{cases}$$",
+        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x<-2\\end{cases}$$",
+        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$",
+        "$$\\begin{cases}3 & \\text{ if } x\\geq -2\\\\-3 & \\text{ if }   x<-2\\end{cases}$$"
     ]
 }

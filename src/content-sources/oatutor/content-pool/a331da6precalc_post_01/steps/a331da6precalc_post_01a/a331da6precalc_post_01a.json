@@ -1,16 +1,16 @@
 {
     "id": "a331da6precalc_post_01a",
     "stepAnswer": [
-        "x**6+x if $$x \\geq 0$$ and -x**6-x if x<0"
+        "$$(x^5+1)\\lvert x\\rvert=\\begin{cases}x^6+x & \\text{ if } x\\geq 0\\\\-x^6-x & \\text{ if } x<0\\end{cases}$$ "
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "(x**5+1)*abs(x)",
+    "stepTitle": "$$(x**5+1)|x|$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "x**6+x if $$x \\geq 0$$ and -x**6-x if x<0",
+    "answerLatex": "$$(x^5+1)\\lvert x\\rvert=\\begin{cases}x^6+x & \\text{ if } x\\geq 0\\\\-x^6-x & \\text{ if } x<0\\end{cases}$$ ",
     "choices": [
-        "x**6+x if $$x \\geq 0$$ and -x**6-x if x<0",
-        "-x**6+x if $$x \\geq 0$$ and x**6-x if x<0"
+        "$$(x^5+1)\\lvert x\\rvert=\\begin{cases}x^6+x & \\text{ if } x\\geq 0\\\\-x^6-x & \\text{ if } x<0\\end{cases}$$ ",
+        "$$(x^5+1)\\lvert x\\rvert=\\begin{cases}-x^6+x   & \\text{ if } x\\geq 0\\\\x^6-x & \\text{ if } x<0\\end{cases}$$"
     ]
 }

@@ -673,7 +673,7 @@ class Problem extends React.Component {
                         )}
                     </div>
                 </div>
-                <footer>
+                <footer style={{display: "none"}}>
                     <div
                         style={{
                             display: "flex",

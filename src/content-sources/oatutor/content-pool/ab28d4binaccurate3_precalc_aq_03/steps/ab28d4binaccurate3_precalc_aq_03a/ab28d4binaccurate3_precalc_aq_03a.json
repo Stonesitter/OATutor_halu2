@@ -4,7 +4,7 @@
         "$$4$$ or $$2$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "Find all values of $$x$$ such that abs(-6/(3-x))=6",
+    "stepTitle": "Find all values of $$x$$ such that $$\\left|\\frac{-6}{3-x}\\right|=6$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},

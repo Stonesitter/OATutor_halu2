@@ -1,17 +1,17 @@
 {
     "id": "ae6089einaccurate4_precalc_aq_01a",
     "stepAnswer": [
-        "$$3$$ if x>-3 and $$-3$$ if x<-3"
+        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ "
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "abs(3*x+9)/(x+3)",
+    "stepTitle": "$$\\frac{|3*x+9|}{(x+3)}$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$3$$ if x>-3 and $$-3$$ if x<-3",
+    "answerLatex": "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ ",
     "choices": [
-        "$$3$$ if x>-3 and $$-3$$ if x<-3",
-        "$$3$$ if $$x \\geq -3$$ and $$-3$$ if x<-3",
-        "$$-3$$ if x>-3 and $$3$$ if x<-3"
+        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ ",
+        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x\\geq -3\\\\-3 & \\text{ if } x <-3\\end{cases}$$ ",
+        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}-3 & \\text{ if } x>-3\\\\3 & \\text{ if } x<-3\\end{cases}$$"
     ]
 }
