@@ -18,7 +18,7 @@ import { CONTENT_SOURCE } from "@common/global-config";
  */
 function splitPreservingMathBlocks(text) {
     const blockRegex =
-        /(\\\[[\s\S]*?\\\])|(\\begin\{[^}]+\}[\s\S]*?\\end\{[^}]+\})/g;
+        /(\$\$\\begin\{[^}]+\}[\s\S]*?\\end\{[^}]+\}\$\$)|(\\\[[\s\S]*?\\\])|(\\begin\{[^}]+\}[\s\S]*?\\end\{[^}]+\})/g;
 
     let segments = [];
     let last = 0;
