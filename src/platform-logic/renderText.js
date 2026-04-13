@@ -17,35 +17,29 @@ import { CONTENT_SOURCE } from "@common/global-config";
  *   \begin{...}...\end{...} block math
  */
 function splitPreservingMathBlocks(text) {
-    const blockRegex =
-        /(\$\$\\begin\{[^}]+\}[\s\S]*?\\end\{[^}]+\}\$\$)|(\\\[[\s\S]*?\\\])|(\\begin\{[^}]+\}[\s\S]*?\\end\{[^}]+\})/g;
+    // Extract \[...\] blocks first (they can span multiple lines), then split plain text on \n.
+    // $$...$$ and \begin{...} inside $$ are handled inline by parseMathSegments — don't extract them here.
+    const blockRegex = /(\\\[[\s\S]*?\\\])/g;
 
     let segments = [];
     let last = 0;
     let m;
 
     while ((m = blockRegex.exec(text)) !== null) {
-        // Plain text before the block
         if (m.index > last) {
             const plain = text.slice(last, m.index);
-            const plainLines = plain.split(/\r\n|\n|\\n/);
-            for (const line of plainLines) segments.push(line);
+            for (const line of plain.split(/\r\n|\n|\\n/)) segments.push(line);
         }
-
-        // Entire math block: push as ONE unbroken segment
         segments.push(m[0]);
-
         last = blockRegex.lastIndex;
     }
 
-    // Trailing plain text
     if (last < text.length) {
         const plain = text.slice(last);
-        const plainLines = plain.split(/\r\n|\n|\\n/);
-        for (const line of plainLines) segments.push(line);
+        for (const line of plain.split(/\r\n|\n|\\n/)) segments.push(line);
     }
 
-    return segments;  // IMPORTANT: do NOT filter empties
+    return segments;
 }
 
 function parseMathSegments(text) {
@@ -117,92 +111,55 @@ function renderText(text, problemID, variabilization, context) {
 
     const lines = splitPreservingMathBlocks(result);
 
+    const output = [];
 
+    lines.forEach((line, idx) => {
+	const trimmed = line.trim();
 
-    return lines.map((line, idx) => {
-	if (line.trim() === "") {
-	    return (
-		<div key={idx} style={{ marginBottom: "1em" }}>
-		    {/* blank line */}
-		</div>
-	    );
+	// Blank line → vertical spacer
+	if (trimmed === "") {
+	    output.push(<div key={`blank-${idx}`} style={{ marginBottom: "1em" }} />);
+	    return;
 	}
 
+	// parseMathSegments handles $$...$$, \(...\), \[...\], \begin{...} all correctly
 	const segments = parseMathSegments(line);
-
-	let lineParts = segments.map((seg) => {
+	segments.forEach((seg) => {
 	    if (seg.type === "text") {
 		const subParts = seg.value.split("##");
-		return subParts.map((sp, kdx) => {
-		    const isMedia = kdx % 2 !== 0;
-
-		    if (isMedia) {
-			return (
+		subParts.forEach((sp, kdx) => {
+		    if (kdx % 2 !== 0) {
+			output.push(
 			    <center key={Math.random() * 2 ** 16}>
-				<RenderMedia
-				    url={sp}
-				    problemID={problemID}
-				    contentSource={CONTENT_SOURCE}
-				/>
+				<RenderMedia url={sp} problemID={problemID} contentSource={CONTENT_SOURCE} />
 			    </center>
 			);
+		    } else {
+			output.push(parseForFillInQuestions(sp));
 		    }
-
-		    return parseForFillInQuestions(sp);
 		});
-	    }
-
-	    if (seg.type === "inline") {
-		return (
-		    <ErrorBoundary
-			componentName={"InlineMath"}
-			replacement={seg.value}
-			inline
-			key={Math.random() * 2 ** 16}
-		    >
-			<InlineMath
-			    math={seg.value}
-			    renderError={(error) => {
-				throw error;
-			    }}
-			/>
+	    } else if (seg.type === "inline") {
+		output.push(
+		    <ErrorBoundary componentName={"InlineMath"} replacement={seg.value} inline key={Math.random() * 2 ** 16}>
+			<InlineMath math={seg.value} renderError={(e) => { throw e; }} />
+		    </ErrorBoundary>
+		);
+	    } else if (seg.type === "block") {
+		output.push(
+		    <ErrorBoundary componentName={"BlockMath"} replacement={seg.value} inline={false} key={Math.random() * 2 ** 16}>
+			<BlockMath math={seg.value} renderError={(e) => { throw e; }} />
 		    </ErrorBoundary>
 		);
 	    }
-
-	    if (seg.type === "block") {
-		return (
-		    <ErrorBoundary
-			componentName={"BlockMath"}
-			replacement={seg.value}
-			inline={false}
-			key={Math.random() * 2 ** 16}
-		    >
-			<BlockMath
-			    math={seg.value}
-			    renderError={(error) => {
-				throw error;
-			    }}
-			/>
-		    </ErrorBoundary>
-		);
-	    }
-
-	    return null;
 	});
 
+	// Line break between lines (not after the last one)
 	if (idx !== lines.length - 1) {
-	    lineParts.push(
-		<Spacer height={2} width={2} key={Math.random() * 2 ** 16} />
-	    );
+	    output.push(<Spacer height={2} width={2} key={`spacer-${idx}`} />);
 	}
-
-	return (
-	    <div key={idx} style={{ marginBottom: "0.75em" }}>
-		{lineParts}
-	    </div>
-	);
     });
+
+    return output;
 }
 
 /**

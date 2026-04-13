@@ -1,18 +1,17 @@
 {
     "id": "abe4ff1inaccurate2_precalc_aq_02a",
     "stepAnswer": [
-        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$"
+        "$$\\frac{\\lvert 3x+6 \\rvert}{x+2} = \\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x<-2\\end{cases}$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "$$|(3*x+6)/(x+2)|$$",
+    "stepTitle": "$$\\frac{|3x+6|}{x+2}$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$",
+    "answerLatex": "$$\\frac{\\lvert 3x+6 \\rvert}{x+2} = \\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x<-2\\end{cases}$$",
     "choices": [
-        "$$\\begin{cases}-3 & \\text{ if } x>-2\\\\3 & \\text{ if } x <-2\\end{cases}$$",
-        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x<-2\\end{cases}$$",
-        "$$\\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x\u21902\\end{cases}$$",
-        "$$\\begin{cases}3 & \\text{ if } x\\geq -2\\\\-3 & \\text{ if }   x<-2\\end{cases}$$"
+        "$$\\frac{\\lvert 3x+6 \\rvert}{x+2} = \\begin{cases}3 & \\text{ if } x>-2\\\\-3 & \\text{ if } x<-2\\end{cases}$$",
+        "$$\\frac{\\lvert 3x+6 \\rvert}{x+2} = \\begin{cases}3 & \\text{ if } x\\geq -2\\\\-3 & \\text{ if } x<-2\\end{cases}$$",
+        "$$\\frac{\\lvert 3x+6 \\rvert}{x+2} = \\begin{cases}-3 & \\text{ if } x>-2\\\\3 & \\text{ if } x<-2\\end{cases}$$"
     ]
 }

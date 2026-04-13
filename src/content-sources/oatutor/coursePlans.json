@@ -8,61 +8,45 @@
                 "id": "2WYUjok5-CdZT-wMQIG22nIR",
                 "name": "Lesson Chem_Pre",
                 "topics": "",
-                "allowRecycle": false,
+                "allowRecycle": true,
                 "learningObjectives": {
                     "chem_kc_1_pre": 0.85,
                     "chem_kc_2_pre": 0.85,
                     "chem_kc_3_pre": 0.85
-                },
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
+                }
             },
             {
                 "id": "0aXHLx2g-v35z-ePkHmHU8DU",
                 "name": "Lesson Chem_Post",
                 "topics": "",
-                "allowRecycle": false,
+                "allowRecycle": true,
                 "learningObjectives": {
                     "chem_kc_1_post": 0.85,
                     "chem_kc_2_post": 0.85,
                     "chem_kc_3_post": 0.85
-                },
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
+                }
             },
             {
                 "id": "7hmkIGMJ-qeV1-Igd3pEtNfQ",
                 "name": "Lesson PreCalc_Pre",
                 "topics": "",
-                "allowRecycle": false,
+                "allowRecycle": true,
                 "learningObjectives": {
                     "precalc_kc_1_pre": 0.85,
                     "precalc_kc_2_pre": 0.85,
                     "precalc_kc_3_pre": 0.85
-                },
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
+                }
             },
             {
                 "id": "0kkRyHFW-rwQN-B8iTiSBC88",
                 "name": "Lesson PreCalc_Post",
                 "topics": "",
-                "allowRecycle": false,
+                "allowRecycle": true,
                 "learningObjectives": {
                     "precalc_kc_1_post": 0.85,
                     "precalc_kc_2_post": 0.85,
                     "precalc_kc_3_post": 0.85
-                },
-                "showStuMastery": false,
-                "doMasteryUpdate": false,
-                "keepMCOrder": true,
-                "giveStuFeedback": false
+                }
             }
         ]
     },
