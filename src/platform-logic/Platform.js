@@ -530,7 +530,7 @@ class Platform extends React.Component {
                     flexDirection: "column",
                 }}
             >
-                <AppBar position="static">
+                <AppBar position="static" style={{display: "none"}}>
                     <Toolbar>
                         <Grid
                             container
