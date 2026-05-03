@@ -3,10 +3,7 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-html, body, #root, .Router, .Router > * {
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 footer {
