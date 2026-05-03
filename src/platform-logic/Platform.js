@@ -623,8 +623,7 @@ class Platform extends React.Component {
                 {this.state.status === "exhausted" ? (
                     <center>
                         <h2>
-                            Thank you for learning with {SITE_NAME}. You have
-                            finished all problems. You can now click on the next button to advance the survey
+			    You can now click on the next button to advance the survey
                         </h2>
                         {/* Signal parent (e.g., LimeSurvey/Qualtrics) that we're done */}
                         <CompletionBeacon
