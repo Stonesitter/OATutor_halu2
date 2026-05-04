@@ -1,17 +1,16 @@
 {
     "id": "a2e8b89precalc__pre_02a",
     "stepAnswer": [
-        "2*x**6+2*x if $$x \\geq 0$$ and -2*x**6-2*x if x<0\\n"
+        "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$"
     ],
     "problemType": "MultipleChoice",
     "stepTitle": "$$(2x**5+2)|x|$$",
     "stepBody": "Use the piecewise definition of the absolute value to rewrite the following expressions in piecewise notation, without absolute value bars.",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "2*x**6+2*x if $$x \\geq 0$$ and -2*x**6-2*x if x<0\\n",
+    "answerLatex": "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$",
     "choices": [
-        "2*x**6+2*x if $$x \\geq 0$$ and -2*x**6-2*x if x<0",
-        "-2*x**6+2*x if $$x \\geq 0$$ and 2*x**6-2*x if x<0\\n",
-        "2*x**6+2*x if $$x \\geq 0$$ and -2*x**6-2*x if x<0\\n"
+        "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$",
+        "$$-2x**6+2x$$ if $$x \\geq 0$$ and $$2x**6-2x$$ if $$x<0$$\\n"
     ]
 }
