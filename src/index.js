@@ -1,4 +1,3 @@
-import '@iframe-resizer/child';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
