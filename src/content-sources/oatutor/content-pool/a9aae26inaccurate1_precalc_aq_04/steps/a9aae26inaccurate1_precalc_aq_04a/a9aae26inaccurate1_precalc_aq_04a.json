@@ -1,17 +1,18 @@
 {
     "id": "a9aae26inaccurate1_precalc_aq_04a",
     "stepAnswer": [
-        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ "
+        "$$2$$ if x>1 and $$-2$$ if x<1\\n"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "$$\\frac{|3*x+9|}{(x+3)}$$",
+    "stepTitle": "$$\\frac{|2*x-2|}{(x-1)}$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ ",
+    "answerLatex": "$$2$$ if x>1 and $$-2$$ if x<1\\n",
     "choices": [
-        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x>-3\\\\-3 & \\text{ if } <-3\\end{cases}$$ ",
-        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}3 & \\text{ if } x\\geq -3\\\\-3 & \\text{ if } x <-3\\end{cases}$$ ",
-        "$$\\frac{\\lvert3*x+9\\rvert}{(x+3)} = \\begin{cases}-3 & \\text{ if } x>-3\\\\3 & \\text{ if } x<-3\\end{cases}$$"
+        "$$-2$$ if x>1 and $$2$$ if x<1\\n",
+        "$$2$$ if x>1 and $$-2$$ if x<1",
+        "$$2$$ if x>1 and $$-2$$ if x<1\\n",
+        "$$2$$ if $$x \\geq 1$$ and $$-2$$ if x<1"
     ]
 }

@@ -1,7 +1,7 @@
 {
     "id": "ac5a5cdcontrol_precalc_aq_04",
     "title": "Algebra with Absolute Values",
-    "body": "These problems are harder, often highlighting an important subtlety. Use the piecewise definition of the absolute value to rewrite the following expressions in piecewise notation, without absolute value bars.",
+    "body": "Use the piecewise definition of the absolute value to rewrite the following expression in piecewise notation, without absolute value bars.",
     "variabilization": {},
     "oer": "https://openstax.org/",
     "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
