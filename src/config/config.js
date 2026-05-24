@@ -104,7 +104,7 @@ const MASTERY_THRESHOLD = 0.95;
  * @type {string}
  */
 const DEFAULT_REFLECTION_QUESTION_TEXT =
-    "The feedback hint I saw for the prior problem was accurate.";
+    "The feedback hint that was shown to me for the prior problem was accurate.";
 // const coursePlans = courses.sort((a, b) => a.courseName.localeCompare(b.courseName));
 const coursePlans = courses;
 const _coursePlansNoEditor = coursePlans.filter(({ editor }) => !!!editor);
