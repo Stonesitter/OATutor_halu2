@@ -1,18 +1,18 @@
 {
     "id": "ac5a5cdcontrol_precalc_aq_04a",
     "stepAnswer": [
-        "$$2$$ if x>1 and $$-2$$ if x<1\\n"
+        "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$\\n"
     ],
     "problemType": "MultipleChoice",
     "stepTitle": "$$\\frac{|2*x-2|}{(x-1)}$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$2$$ if x>1 and $$-2$$ if x<1\\n",
+    "answerLatex": "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$\\n",
     "choices": [
-        "$$-2$$ if x>1 and $$2$$ if x<1\\n",
-        "$$2$$ if x>1 and $$-2$$ if x<1",
-        "$$2$$ if x>1 and $$-2$$ if x<1\\n",
-        "$$2$$ if $$x \\geq 1$$ and $$-2$$ if x<1"
+        "$$-2$$ if $$x>1$$ and $$2$$ if $$x<1$$\\n",
+        "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$",
+        "$$2$$ if $$x>1$$ and $$-2$$ if $$x<1$$\\n",
+        "$$2$$ if $$x \\geq 1$$ and $$-2$$ if $$x<1$$"
     ]
 }
