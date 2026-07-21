@@ -4,7 +4,7 @@
         "$$[-2,1]$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "Find all values of $$x$$ such that $$\\left|\\frac{4x+2}{3}\\right|\\leq $$2$$",
+    "stepTitle": "Find all values of $$x$$ such that $$\\left|\\frac{4x+2}{3}\\right|\\leq2$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
