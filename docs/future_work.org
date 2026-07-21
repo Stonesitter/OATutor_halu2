@@ -1,0 +1,85 @@
+#+TITLE: FoL'26 OATutor-Talk — Future Work / offene Punkte
+#+AUTHOR: Manu
+#+DATE: 2026-06-18
+#+STARTUP: overview
+
+* Hinweis zur Interpretation
+Du hast "Part 1 und Part 3" erwähnt. In =docs/talking_points.md= gibt es aktuell nur
+*Part 1 (Jenny)* und *Part 2 (Manu)* — keinen Part 3. Ich habe diese Datei daher als
+komplette Offene-Punkte-Liste für morgen angelegt und unten einen markierten Platzhalter
+für einen möglichen "Part 3" gelassen. Falls du eine dreiteilige Vortragsstruktur planst
+(z. B. Part 3 = Future Directions / Outlook passend zum Workshop-Titel), sag Bescheid —
+dann ziehe ich die entsprechenden Inhalte dort hin.
+
+* WICHTIG — Timing: 15 min sind aktuell nicht realistisch
+Aktueller Stand von Part 2 ≈ *18–20 min* Material (12 Slides + 2–3 Videos + 2 Diagramme).
+Du musst kürzen. Größter Hebel: die *vier "two hats"-Kollisions-Sektionen*
+(6 Logging, 7 Interface, 8 Tag-System, 9 Formatting).
+
+** TODO Auf zwei volle + zwei kurze Sektionen eindampfen
+   - Voll ausspielen: *Interface (7, mit Video)* und *Formatting (9, deine Eigenleistung)*
+   - Kürzen auf ~1 Satz: *Logging (6)*
+   - Kurzer positiver Einschub: *Tag-System (8)*
+   - Spart ~2–3 min.
+** TODO Slide 11 in den Closer falten (eine Zeile) — spart ~1 min [[Jenny entscheidet]]
+** TODO Prüfen, ob ein Video reicht (Next-Unlock + no-feedback tragen den Kern)
+
+* Struktur-Fixes (Coherence-Punkte 1 & 3) — die zwei, die du meintest
+** TODO Punkt 1 — Reihenfolge: Harmonie-Slide (Tag-System) ans Ende der Sektion
+   Neue Reihenfolge der "two hats"-Sektion:
+   - 6 Spannung #1: Logging
+   - 7 Spannung #2: Interface
+   - 8 Spannung #3: Formatting / Pipeline
+   - 9 "Wo es zusammenpasst": Tag-System (Harmonie) ← als positiver Abschluss
+   - → dann 10 Chatbot-Brücke
+   So stehen die drei Spannungen zusammen und die Sektion endet auf einer hohen Note,
+   direkt vor der Brücke. (In talking_points.md: Slides 8 und 9 tauschen + umnummerieren.)
+** TODO Punkt 3 — Brückensatz in Slide 4 ergänzen
+   Slide 4 (Architektur / Bridge) kommt VOR den konkreten Spannungen (6–9). Damit der
+   Bogen klar wird, in Slide 4 einen Satz ergänzen, z. B.:
+   "Das ist der Mechanismus — gleich zeige ich drei konkrete Kollisionen und wie ihn
+    (bzw. die Config) jede davon auffängt."
+
+* Offene Entscheidungen (von dir / mit Jenny)
+** TODO Slide 9 Reframe selbst überarbeiten
+   Ziel: nicht aufzählen, Subjekt = unser Bedarf, nicht OATutors Mangel.
+   (Mein Edit-Vorschlag wurde zurückgestellt — du wolltest selbst ran.)
+** TODO Slide 6: Firebase-Framing final glätten (Subjekt = Studienbedarf)
+** TODO Slide 11: behalten / in Closer falten / streichen — *Jenny entscheidet*
+
+* Part 1 (Jenny) — offene Inputs einholen
+** TODO Hypothese (1 Satz) + Stichprobe N (Prolific)
+** TODO Konkrete wiederverwendete Item-Sets benennen (Precalc / Chemie)
+** TODO Mit Jenny klären: wer übernimmt "warum OATutor"?
+** TODO Mit Jenny klären: "zu wenige Halluzinationen"-Punkt — ihre Studien-Sektion
+   oder meine Chatbot-Brücke (Slide 10)?
+** TODO Jenny den Gesamt-Draft schicken (talking_points.md)
+
+* Deck (talk.qmd) — technische TODOs
+** TODO talk.qmd auf die neue "two hats"-Struktur re-syncen
+   (aktuell noch alte "embeddable component"-Reihenfolge → weicht von talking_points ab)
+** TODO Mermaid-Diagramme: Rendering final fixen (Boxen waren abgeschnitten)
+   - htmlLabels:false ist drin; im Browser prüfen
+   - Fallback: Diagramme als statisches SVG vorrendern (zuverlässigster Weg für Zoom)
+** TODO Header-TODOs füllen (Name, Affiliation)
+** TODO In Quarto =quarto preview talk.qmd= testen (Videos + Diagramme im Browser)
+
+* Medien — Screenshots / Videos
+** TODO Block-Math: *Screenshot statt Video* zeigen
+   - Idee von dir: statt =block_math_demo.mp4= einfach einen Screenshot herzeigen.
+   - Passt, da du ohnehin mehr Screenshots für die Präsentation generieren musst.
+   - → Slide 9 Video-Note entsprechend anpassen (Screenshot statt =<video>=).
+** TODO Weitere Screenshots generieren, die du eh brauchst (Liste hier ergänzen):
+   -
+   -
+** DONE Demo-Clips gesplittet (demo_nofeedback.mp4 16s, demo_nextunlock.mp4 12s)
+
+* Vorher/Nachher-Idee (optional, falls Zeit)
+** TODO Ein Vorher/Nachher-Bild: Standard-OATutor vs. abgespeckte Studien-Version im iframe
+   (ein Bild erklärt das UI-Stripping schneller als jede Liste)
+
+* Part 3? — Platzhalter
+  Falls du eine dritte Sektion willst (z. B. "Future Directions / Outlook", passend zum
+  Workshop-Titel), hier sammeln, was rein soll:
+  -
+  -

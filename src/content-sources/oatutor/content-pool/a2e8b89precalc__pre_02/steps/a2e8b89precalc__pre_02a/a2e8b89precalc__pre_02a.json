@@ -1,16 +1,17 @@
 {
     "id": "a2e8b89precalc__pre_02a",
     "stepAnswer": [
-        "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$"
+        "$$\\frac{5}{2}$$ or $$\\frac{3}{2}$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "$$(2x**5+2)|x|$$",
-    "stepBody": "Use the piecewise definition of the absolute value to rewrite the following expressions in piecewise notation, without absolute value bars.",
+    "stepTitle": "Find all values of $$x$$ such that $$\\left|\\frac{-3}{2-x}\\right|=6$$",
+    "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$",
+    "answerLatex": "$$\\frac{5}{2}$$ or $$\\frac{3}{2}$$",
     "choices": [
-        "$$2x**6+2x$$ if $$x \\geq 0$$ and $$-2x**6-2x$$ if $$x<0$$",
-        "$$-2x**6+2x$$ if $$x \\geq 0$$ and $$2x**6-2x$$ if $$x<0$$\\n"
+        "$$\\frac{5}{2}$$ or $$\\frac{3}{2}$$",
+        "$$\\frac{5}{2}$$",
+        "$$\\frac{3}{2}$$"
     ]
 }

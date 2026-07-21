@@ -1,16 +1,17 @@
 {
     "id": "a2e8b89precalc_pre_01a",
     "stepAnswer": [
-        "$$x**6+x$$ if $$x \\geq 0$$ and $$-x**6-x$$ if $$x<0$$"
+        "$$1$$ if $$x>1$$ and $$-1$$ if $$x<1$$"
     ],
     "problemType": "MultipleChoice",
-    "stepTitle": "$$(x**5+1)|x|$$",
+    "stepTitle": "$$\\frac{|x-1|}{x-1}$$",
     "stepBody": "",
     "answerType": "string",
     "variabilization": {},
-    "answerLatex": "$$x**6+x$$ if $$x \\geq 0$$ and $$-x**6-x$$ if $$x<0$$",
+    "answerLatex": "$$1$$ if $$x>1$$ and $$-1$$ if $$x<1$$",
     "choices": [
-        "$$x**6+x$$ if $$x \\geq 0$$ and $$-x**6-x$$ if $$x<0$$",
-        "$$-x**6+x$$ if $$x \\geq 0$$ and $$x**6-x$$ if $$x<0$$"
+        "$$1$$ if $$x>1$$ and $$-1$$ if $$x<1$$",
+        "$$1$$ if $$x\\geq$$ $$1$$ and $$-1$$ if $$x<1$$",
+        "$$-1$$ if $$x>1$$ and $$1$$ if $$x<1$$"
     ]
 }
