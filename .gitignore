@@ -68,3 +68,10 @@ docs/claude_plan.org
 analysis/
 docs/presentation_summary.md
 docs/talking_points.md
+CONTEXT.md
+docs/adr/
+limesurvey/IMPLEMENTATION_BRIEF.md
+limesurvey/limesurvey_survey_966152.lss
+limesurvey/limesurvey_survey_966153.lss
+limesurvey/patch_survey.py
+limesurvey/test_reflection.js
