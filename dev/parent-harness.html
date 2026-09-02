@@ -1,0 +1,242 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>OATutor parent harness</title>
+<!--
+  Stands in for the LimeSurvey page so the iframe side can be tested without
+  touching the live survey. It does what the theme's custom.js and a question
+  group's logger script do together:
+
+    - answers OATU_NEED_INIT with OATU_INIT { parentOrigin, token }
+    - appends loggable events to a "hidden input" (the textarea below)
+    - keeps Next hidden until OATUTOR_COMPLETE arrives with a matching token
+
+  The one thing it adds is a deliberate delay before the listener is installed.
+  That is the failure this is meant to reproduce: on a German server with US
+  participants the survey page can be slower to wake up than the iframe, and
+  the old one-shot ping was lost.
+
+  Serve it over http, not file:// — postMessage needs a real origin:
+
+      python3 -m http.server 8000        # then open http://localhost:8000/dev/parent-harness.html
+
+  Point it at the live deployment, or at a local dev server to test a change
+  before deploying.
+
+  What to run:
+
+    delay 0 ms      before and after the fix: full log, Next appears
+    delay 500 ms    before: opening events missing.  after: full log
+    delay 3000 ms   before: NOTHING, Next never appears.  after: full log
+    delay 10000 ms  before: NOTHING, Next never appears.  after: full log
+
+  Then press "Simulate survey page reload" after finishing a lesson. That is
+  the id 25 scenario: the log starts empty and the events have to come back
+  from the iframe's replay history. Watch the verdict line -- it fails if the
+  completion signal unlocks Next while the log input is still empty, which is
+  the window in which a participant can submit an empty page.
+-->
+<style>
+  body { font: 14px/1.5 system-ui, -apple-system, sans-serif; margin: 0; padding: 16px;
+         background: #f6f6f7; color: #1a1a1a; }
+  h1 { font-size: 16px; margin: 0 0 12px; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  label { font-weight: 600; }
+  input[type=text] { width: 460px; }
+  input, select, button { font: inherit; padding: 5px 8px; }
+  button { cursor: pointer; }
+  #next { display: none; background: #0b6; color: #fff; border: 0; border-radius: 4px;
+          padding: 8px 20px; font-weight: 700; }
+  .panel { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .box { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 10px; }
+  .box h2 { font-size: 13px; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .04em;
+            color: #666; }
+  textarea { width: 100%; height: 180px; font: 12px/1.4 ui-monospace, monospace; }
+  #events { height: 180px; overflow: auto; font: 12px/1.5 ui-monospace, monospace; }
+  #events div { border-bottom: 1px solid #f0f0f0; padding: 1px 0; }
+  .count { font-weight: 700; }
+  .bad { color: #b3261e; }
+  .good { color: #0a7d3f; }
+  iframe { width: 100%; height: 760px; border: 1px solid #ccc; border-radius: 6px;
+           background: #fff; margin-top: 12px; }
+</style>
+
+<h1>OATutor ⇄ survey page harness</h1>
+
+<div class="row">
+  <label for="src">Lesson URL</label>
+  <input id="src" type="text"
+         value="https://stonesitter.github.io/OATutor_halu2/#/lessons/2WYUjok5-CdZT-wMQIG22nIR">
+</div>
+
+<div class="row">
+  <label for="delay">Listener delay</label>
+  <select id="delay">
+    <option value="0">0 ms — parent already listening</option>
+    <option value="500">500 ms — parent slightly late</option>
+    <option value="3000" selected>3000 ms — parent late (the failure case)</option>
+    <option value="10000">10000 ms — parent very late</option>
+    <option value="-1">never — parent script did not load at all</option>
+  </select>
+  <button id="start">Load fresh</button>
+  <button id="reload">Simulate survey page reload</button>
+  <button id="next">Next →</button>
+</div>
+
+<div class="row">
+  connected: <span id="connected" class="count bad">no</span> &nbsp;·&nbsp;
+  logged events: <span id="n" class="count">0</span> &nbsp;·&nbsp;
+  completion: <span id="done" class="count bad">not received</span>
+</div>
+
+<div class="row" id="verdict"></div>
+
+<div class="panel">
+  <div class="box">
+    <h2>Hidden log input (what LimeSurvey would store)</h2>
+    <textarea id="log" readonly></textarea>
+  </div>
+  <div class="box">
+    <h2>Message trace</h2>
+    <div id="events"></div>
+  </div>
+</div>
+
+<iframe id="oatutor-frame" title="OATutor"></iframe>
+
+<script>
+(function () {
+  var CHILD_ORIGIN = null;   // derived from the lesson URL
+  var token = null;
+  var listener = null;
+  var installTimer = null;
+  var events = [];           // stands in for the hidden input's value
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  function trace(text, cls) {
+    var d = document.createElement('div');
+    if (cls) d.className = cls;
+    d.textContent = new Date().toISOString().slice(11, 23) + '  ' + text;
+    $('events').appendChild(d);
+    $('events').scrollTop = $('events').scrollHeight;
+  }
+
+  function verdict(text, cls) {
+    var el = $('verdict');
+    el.textContent = text;
+    el.className = 'row count ' + cls;
+  }
+
+  function render() {
+    $('n').textContent = events.length;
+    $('log').value = events.length ? JSON.stringify(events, null, 1) : '';
+  }
+
+  function teardown() {
+    if (listener) { window.removeEventListener('message', listener); listener = null; }
+    if (installTimer) { clearTimeout(installTimer); installTimer = null; }
+    $('next').style.display = 'none';
+    $('connected').textContent = 'no';
+    $('connected').className = 'count bad';
+    $('done').textContent = 'not received';
+    $('done').className = 'count bad';
+    verdict('', '');
+  }
+
+  // Mirrors the theme's custom.js plus a question group's logger script.
+  function install() {
+    listener = function (e) {
+      if (e.origin !== CHILD_ORIGIN) return;
+      var d = e.data || {};
+
+      if (d.type === 'OATU_NEED_INIT') {
+        trace('← OATU_NEED_INIT');
+        $('oatutor-frame').contentWindow.postMessage(
+          { type: 'OATU_INIT', parentOrigin: location.origin, token: token },
+          CHILD_ORIGIN
+        );
+        trace('→ OATU_INIT (token ' + token + ')');
+        $('connected').textContent = 'yes';
+        $('connected').className = 'count good';
+        return;
+      }
+
+      if (d.type === 'OATUTOR_COMPLETE') {
+        if (d.token !== token) { trace('← OATUTOR_COMPLETE with WRONG token — ignored', 'bad'); return; }
+        trace('← OATUTOR_COMPLETE (' + (d.status || '?') + ')', 'good');
+        $('done').textContent = 'received';
+        $('done').className = 'count good';
+        $('next').style.display = 'inline-block';
+
+        // The ordering check. Completion is what unlocks Next, so if it lands
+        // while the log input is still empty the participant can submit an
+        // empty page. On the reload path they are primed to do exactly that.
+        if (events.length === 0) {
+          verdict('FAIL — Next unlocked while the log input is still EMPTY. '
+                  + 'A participant clicking now submits nothing.', 'bad');
+        } else {
+          verdict('PASS — ' + events.length + ' event(s) were written before Next unlocked.', 'good');
+        }
+        return;
+      }
+
+      var loggable = {
+        OATUTOR_ANSWER_SUBMITTED: 'answer',
+        OATUTOR_PROBLEM_OPENED: 'problem_opened',
+        OATUTOR_NEXT_PROBLEM: 'next_problem',
+        OATUTOR_REFLECTION_SUBMITTED: 'reflection'
+      };
+      if (!loggable[d.type]) return;
+
+      events.push({
+        type: loggable[d.type],
+        timestamp: d.timestamp || new Date().toISOString(),
+        oats_user_id: d.oats_user_id || null,
+        problemId: d.problemId,
+        stepId: d.stepId,
+        isCorrect: d.isCorrect
+      });
+      trace('← ' + loggable[d.type] + '  ' + (d.problemId || ''));
+      render();
+    };
+    window.addEventListener('message', listener);
+    trace('parent listener installed');
+  }
+
+  function boot(keepLog) {
+    teardown();
+    if (!keepLog) { events = []; render(); }
+
+    var src = $('src').value.trim();
+    try { CHILD_ORIGIN = new URL(src).origin; }
+    catch (err) { alert('Bad lesson URL'); return; }
+
+    token = 'oatu_' + Math.random().toString(36).slice(2);
+    var delay = parseInt($('delay').value, 10);
+
+    // A survey page reload gives a fresh token and an empty log input. Whatever
+    // the participant already did has to come back from the iframe's replay.
+    $('oatutor-frame').src = 'about:blank';
+    setTimeout(function () { $('oatutor-frame').src = src; }, 50);
+
+    if (delay < 0) trace('parent listener will NEVER be installed', 'bad');
+    else if (delay === 0) install();
+    else {
+      trace('parent listener delayed by ' + delay + ' ms');
+      installTimer = setTimeout(install, delay);
+    }
+  }
+
+  $('start').onclick = function () { $('events').innerHTML = ''; boot(false); };
+  $('reload').onclick = function () {
+    trace('--- simulating a survey page reload: log input cleared, new token ---', 'bad');
+    boot(false);
+  };
+  $('next').onclick = function () {
+    alert('Next pressed. LimeSurvey would now save this log input:\n\n'
+          + (events.length ? events.length + ' event(s)' : 'EMPTY — data lost'));
+  };
+
+  boot(false);
+})();
+</script>
