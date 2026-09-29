@@ -60,9 +60,20 @@ const queryParamToContext = {
     use_expanded_view: "use_expanded_view",
     do_not_restore: "noRestore",
     locale: "locale",
+    // Lets the embedding survey pick which named hint pathway a lesson serves.
+    // Spread into ThemeContext after the treatmentMapping default, so it wins.
+    hintpathway: "hintPathway",
 };
 
-const queryParamsToKeep = ["use_expanded_view", "to", "do_not_restore", "locale"];
+const queryParamsToKeep = [
+    "use_expanded_view",
+    "to",
+    "do_not_restore",
+    "locale",
+    // Must survive replaceState: without it a page reload silently drops the
+    // pathway and the lesson falls back to DefaultPathway mid-session.
+    "hintpathway",
+];
 
 let treatmentMapping;
 

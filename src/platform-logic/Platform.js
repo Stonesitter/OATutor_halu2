@@ -365,6 +365,7 @@ class Platform extends React.Component {
                                 problemId: chosenProblem.id,
                                 courseName: chosenProblem.courseName,
                                 lessonId: this.lesson.id,
+                                hintPathway: this.context?.hintPathway ?? null,
                             });
                         }
                     );
@@ -478,6 +479,7 @@ class Platform extends React.Component {
                 problemId: chosenProblem.id,
                 courseName: chosenProblem.courseName,
                 lessonId: this.lesson.id,
+                hintPathway: this.context?.hintPathway ?? null,
             });
             return chosenProblem;
         } else {

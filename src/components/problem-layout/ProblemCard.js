@@ -72,9 +72,22 @@ class ProblemCard extends React.Component {
             "hintPathway",
             context.hintPathway
         );
+        // An unknown pathway would yield undefined and throw in the loop below,
+        // killing the iframe mid-session. Fall back to DefaultPathway instead.
+        const stepHints = this.step.hints || {};
+        this.hintPathway =
+            stepHints[context.hintPathway] != null
+                ? context.hintPathway
+                : "DefaultPathway";
+        if (this.hintPathway !== context.hintPathway) {
+            console.warn(
+                `hintPathway "${context.hintPathway}" not found on step ` +
+                    `${this.step.id}; falling back to DefaultPathway`
+            );
+        }
         this.hints = this.giveDynamicHint
             ? []
-            : JSON.parse(JSON.stringify(this.step.hints[context.hintPathway]));
+            : JSON.parse(JSON.stringify(stepHints[this.hintPathway] || []));
 
         for (let hint of this.hints) {
             hint.dependencies = hint.dependencies.map((dependency) =>
@@ -285,6 +298,7 @@ class ProblemCard extends React.Component {
             stepIndex: this.index,
             courseName: courseName ?? null,
             oats_user_id: this.context?.firebase?.oats_user_id ?? null,
+            hintPathway: this.hintPathway ?? null,
 	    lesson: lessonMetadata,
             seed,
             attemptRaw: inputVal,
