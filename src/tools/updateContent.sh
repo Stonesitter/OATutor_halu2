@@ -79,6 +79,12 @@ rm src/content-sources/oatutor/bkt-params/*.json
 mv src/content-sources/oatutor/bktParams.json src/content-sources/oatutor/bkt-params/bktParams1.json
 cp src/content-sources/oatutor/bkt-params/bktParams1.json src/content-sources/oatutor/bkt-params/bktParams2.json
 
+echo "Generating hint pathway variants..."
+
+# Must run on the freshly copied pool and before preprocessing, which is what
+# folds the pathway files into step.hints. Aborts on any design violation.
+node "${PLATFORM_REPO_DIR}/src/tools/generateHintVariants.js" || exit 1
+
 echo "Preprocessing the problem pool..."
 
 cd src/tools || exit

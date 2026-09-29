@@ -74,3 +74,6 @@ limesurvey/limesurvey_survey_966152.lss
 limesurvey/limesurvey_survey_966153.lss
 limesurvey/patch_survey.py
 limesurvey/test_reflection.js
+# Hint pathway variants -- build output of src/tools/generateHintVariants.js,
+# regenerated from the checked-in DefaultPathway files on every content update.
+src/content-sources/oatutor/content-pool/**/tutoring/*V[1-9]Pathway.json
