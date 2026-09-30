@@ -70,8 +70,9 @@ docs/talking_points.md
 CONTEXT.md
 docs/adr/
 limesurvey/IMPLEMENTATION_BRIEF.md
-limesurvey/limesurvey_survey_966152.lss
-limesurvey/limesurvey_survey_966153.lss
+# Survey instruments. Named one by one until 966154; a glob so that the next
+# generation cannot reach the public repo by being forgotten here.
+limesurvey/limesurvey_survey_*.lss
 limesurvey/patch_survey.py
 limesurvey/test_reflection.js
 # Hint pathway variants -- build output of src/tools/generateHintVariants.js,
