@@ -84,7 +84,10 @@ Both `postMessage` payloads carry the pathway:
 
 The two differ only when the fallback fired: the card that resolves the pathway
 does not exist yet when the problem is opened. A log in which they disagree is
-therefore a usable signal, not an inconsistency.
+therefore a usable signal, not an inconsistency — a host page that wants to tell
+"the parameter never arrived" (both report `DefaultPathway`) apart from "the
+variant files are not deployed" (only the requested one names a variant) has to
+store both fields rather than one.
 
 ## Code Reference
 
